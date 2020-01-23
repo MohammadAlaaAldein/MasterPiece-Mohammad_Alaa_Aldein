@@ -1,0 +1,208 @@
+/* @extend display-flex; */
+
+/* @extend list-type-ulli; */
+
+/* Montserrat-300 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/montserrat/Montserrat-SemiBold.ttf");
+  -ms-box-shadow: none !important; }
+
+.register-p {
+  margin-bottom: 0px;
+  font-size: 15px;
+  color: #777; }
+
+.register-h2 {
+  line-height: 1.66;
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  color: #222;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.register-body {
+  margin-top: -68px;
+  font-size: 14px;
+  line-height: 1;
+  color: #222;
+  font-weight: 400;
+  font-family: 'Montserrat';
+  background-image: url("../../../images/8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-position: center center;
+  padding: 50px 0; }
+
+.register-container {
+  width: 660px;
+  position: relative;
+  margin: 0 auto; }
+
+
+
+.register-signup-content {
+  background: #fff;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  padding: 50px 85px; }
+
+.register-form-group {
+  overflow: hidden;
+  margin-bottom: 20px; }
+
+.register-form-input {
+  width: 100%;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 500;
+  color: #222; }
+  .register-form-input::-webkit-input-placeholder {
+    color: #999; }
+  .register-form-input::-moz-placeholder {
+    color: #999; }
+  .register-form-input:-ms-input-placeholder {
+    color: #999; }
+  .register-form-input:-moz-placeholder {
+    color: #999; }
+  .register-form-input::-webkit-input-placeholder {
+    font-weight: 500; }
+  .register-form-input::-moz-placeholder {
+    font-weight: 500; }
+  .register-form-input:-ms-input-placeholder {
+    font-weight: 500; }
+  .register-form-input:-moz-placeholder {
+    font-weight: 500; }
+  .register-form-input:focus {
+    border: 1px solid transparent;
+    -webkit-border-image-source: -webkit-linear-gradient(to right, #9face6, #74ebd5);
+    -moz-border-image-source: -moz-linear-gradient(to right, #9face6, #74ebd5);
+    -o-border-image-source: -o-linear-gradient(to right, #9face6, #74ebd5);
+    border-image-source: linear-gradient(to right, #9face6, #74ebd5);
+    -webkit-border-image-slice: 1;
+    border-image-slice: 1;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    background-origin: border-box;
+    background-clip: content-box, border-box; }
+    .register-form-input:focus::-webkit-input-placeholder {
+      color: #222; }
+    .register-form-input:focus::-moz-placeholder {
+      color: #222; }
+    .register-form-input:focus:-ms-input-placeholder {
+      color: #222; }
+    .register-form-input:focus:-moz-placeholder {
+      color: #222; }
+
+.register-form-submit {
+  width: 100%;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  background-image: -moz-linear-gradient(to left, #74ebd5, #9face6);
+  background-image: -ms-linear-gradient(to left, #74ebd5, #9face6);
+  background-image: -o-linear-gradient(to left, #74ebd5, #9face6);
+  background-image: -webkit-linear-gradient(to left, #74ebd5, #9face6);
+  background-image: linear-gradient(to left, #74ebd5, #9face6); }
+
+.register-input[type=checkbox]:not(old) {
+  width: 2em;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  display: none; }
+
+.register-input[type=checkbox]:not(old) + label {
+  display: inline-block;
+  margin-top: 7px;
+  margin-bottom: 25px; }
+
+.register-input[type=checkbox]:not(old) + label > span {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-right: 15px;
+  margin-bottom: 3px;
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  background: white;
+  background-image: -moz-linear-gradient(white, white);
+  background-image: -ms-linear-gradient(white, white);
+  background-image: -o-linear-gradient(white, white);
+  background-image: -webkit-linear-gradient(white, white);
+  background-image: linear-gradient(white, white);
+  vertical-align: bottom; }
+
+.register-input[type=checkbox]:not(old):checked + label > span {
+  background-image: -moz-linear-gradient(white, white);
+  background-image: -ms-linear-gradient(white, white);
+  background-image: -o-linear-gradient(white, white);
+  background-image: -webkit-linear-gradient(white, white);
+  background-image: linear-gradient(white, white); }
+
+.register-input[type=checkbox]:not(old):checked + label > span:before {
+  content: '\f26b';
+  display: block;
+  color: #222;
+  font-size: 11px;
+  line-height: 1.2;
+  text-align: center;
+  font-family: 'Material-Design-Iconic-Font';
+  font-weight: bold; }
+
+.register-loginhere {
+  color: #555;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 3px; }
+
+.register-loginhere-link {
+  font-weight: 700;
+  color: #222; }
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: calc(100% - 40px);
+    max-width: 100%; } }
+@media screen and (max-width: 480px) {
+  .register-signup-content {
+    padding: 50px 25px; } }
+
