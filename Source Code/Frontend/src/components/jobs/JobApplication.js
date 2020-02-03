@@ -6,7 +6,8 @@ export default class JobApplication extends Component {
 
     state = {
         jobApplication: null,
-        user: null
+        user: null,
+        mail: null
     }
 
     UNSAFE_componentWillMount() {
@@ -22,33 +23,68 @@ export default class JobApplication extends Component {
                 let _id = jobApplication.user_id
                 axios.post("http://localhost:9000/getLoggedInUser", { _id })
                     .then(res => {
-                        // console.log(res.data)
-                        this.setState({ user: res.data })
+                        let user = res.data
+                        this.setState({ user })
+                        this.setState({ mail: `mailto:${user.email}` })
                     })
 
             })
     }
 
     render() {
-        const { jobApplication, user } = this.state
+        const { jobApplication, user, mail } = this.state
         return (
-            <div>
+            <div className="job">
                 {
                     jobApplication !== null ?
-                        <div>
+                        <div className="job-content">
                             {
                                 user !== null ?
                                     <Link to="profile"
                                         onClick={() => localStorage.setItem("profile", user._id)}
-                                    > <h4>{user.name}</h4> </Link>
+                                    > <h2 className="mt-5" >{user.name}</h2> </Link>
                                     : null
                             }
-                            <h4> {jobApplication.name} </h4>
-                            <h4> {jobApplication.field} </h4>
-                            <h4> {jobApplication.experience} </h4>
-                            <h4> {jobApplication.address} </h4>
-                            <h4> {jobApplication.type} </h4>
+                            <table className="job-table">
+                                <tbody>
 
+                                    <tr>
+                                        <td><h3 className="mr-2 mt-3 mb-2  float-right"> Job  </h3></td>
+                                        <td><h3 className="mt-3 mb-2 "> : </h3></td>
+                                        <td><h3 className="ml-2 mt-3 mb-2  float-left"> <b>{jobApplication.name}</b> </h3></td>
+                                    </tr>
+                                    <tr>
+                                        <td><h4 className="mr-2 mb-2 float-right"> Job Field</h4></td>
+                                        <td><h4 className="mb-2 "> : </h4></td>
+                                        <td><h4 className="ml-2 mb-2 float-left"><b>{jobApplication.field}</b> </h4></td>
+                                    </tr>
+                                    <tr>
+                                        <td><h4 className="mr-2 mb-2 float-right"> Experience Have</h4></td>
+                                        <td><h4 className="mb-2 "> : </h4></td>
+                                        <td><h4 className="ml-2 mb-2 float-left"><b>{jobApplication.experience} Years</b> </h4></td>
+                                    </tr>
+                                    <tr>
+                                        <td><h4 className="mr-2 mb-2 float-right">Location Prefer</h4></td>
+                                        <td><h4 className="mb-2 "> : </h4></td>
+                                        <td><h4 className="ml-2 mb-2 float-left"><b>{jobApplication.address}</b> </h4></td>
+                                    </tr>
+                                    <tr>
+                                        <td><h4 className="mr-2 mb-2 float-right">Job Time Prefer</h4></td>
+                                        <td><h4 className="mb-2 "> : </h4></td>
+                                        <td><h4 className="ml-2 mb-2 float-left"><b>{jobApplication.time}</b> </h4></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                            <h5 className="mt-5 mb-4"> {jobApplication.info} </h5>
+
+                            <center>
+                                <div className="cell" data-title="Field">
+                                    <div className="button_cont mt-3" align="center">
+                                        <a href={mail} type="submit" className="add-job" rel="nofollow noopener">Contact by Email</a>
+                                    </div>
+                                </div>
+                            </center>
                         </div>
                         : null
                 }

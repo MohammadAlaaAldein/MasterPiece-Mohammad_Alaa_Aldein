@@ -41,13 +41,8 @@ export default class App extends Component {
     path: null
   }
 
-  UNSAFE_componentWillMount = async () => {
-    await this.getLoggedInUser()
-    // console.log(window.location.href)
-    // if (window.location.href === "http://localhost:3000/ ") {
-    //   // window.location.href = "/home"
-    //   this.setState({ path: window.location.href })
-    // }
+  UNSAFE_componentWillMount = () => {
+     this.getLoggedInUser()
   }
 
   getLoggedInUser = () => {
@@ -71,8 +66,6 @@ export default class App extends Component {
   }
 
   render() {
-    const { path } = this.state
-    console.log(path)
     return (
       <div>
         <Router>
@@ -85,9 +78,9 @@ export default class App extends Component {
           } */}
           {/* <Home /> */}
 
-   
 
-          <Route path="/Home" component={routerProps => (<Home {...routerProps} />)}></Route>
+
+          <Route exact path="/" component={routerProps => (<Home {...routerProps} />)}></Route>
           <Route path="/Search" component={routerProps => (<Search {...routerProps} />)}></Route>
           <Route path="/Aboutus" component={routerProps => (<Aboutus {...routerProps} />)}></Route>
           <Route path="/Contactus" component={routerProps => (<Contactus {...routerProps} />)}></Route>

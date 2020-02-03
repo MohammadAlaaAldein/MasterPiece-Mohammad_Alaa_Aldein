@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
+import "../../Design/job/job.css"
 
 export default class Job extends Component {
 
@@ -62,38 +63,84 @@ export default class Job extends Component {
     }
 
     render() {
-        const { job, user, apply } = this.state
+        const { job, apply } = this.state
         // console.log(this.state.apply)
         return (
-            <div>
+            <div className="job">
                 {
                     job !== null ?
-                        <div>
-                            {
+                        <div className="job-content">
+                            {/* {
                                 user !== null ?
-                                    <Link to="profile"
-                                        onClick={() => localStorage.setItem("profile", user._id)}
-                                    > {user.name} </Link>
+                                    <h3 className="mt-5 mb-4">
+                                        <Link to="profile"
+                                            onClick={() => localStorage.setItem("profile", user._id)}
+                                        > {user.name} </Link>
+                                    </h3>
                                     : null
-                            }
-                            <h4> {job.name} </h4>
-                            <h4> {job.field} </h4>
-                            <h4> {job.experience} </h4>
-                            <h4> {job.address} </h4>
-                            <h4> {job.info} </h4>
-                            <h4> {job.type} </h4>
-                            <h4> {job.company} </h4>
-                            <h4> {job.salary} </h4>
+                            } */}
+                            <table className="job-table">
+                                <tbody>
+
+                                    <tr>
+                                        <td><h3 className="mr-2 mt-5 mb-2  float-right"> Job  </h3></td>
+                                        <td><h3 className="mt-5 mb-2 "> : </h3></td>
+                                        <td><h3 className="ml-2 mt-5 mb-2  float-left"> <b>{job.name}</b> </h3></td>
+                                    </tr>
+                                    <tr>
+                                        <td><h4 className="mr-2 mb-2 float-right"> Job Field</h4></td>
+                                        <td><h4 className="mb-2 "> : </h4></td>
+                                        <td><h4 className="ml-2 mb-2 float-left"><b>{job.field}</b> </h4></td>
+                                    </tr>
+                                    <tr>
+                                        <td><h4 className="mr-2 mb-2 float-right"> Experience Needed</h4></td>
+                                        <td><h4 className="mb-2 "> : </h4></td>
+                                        <td><h4 className="ml-2 mb-2 float-left"><b>{job.experience} Years</b> </h4></td>
+                                    </tr>
+                                    <tr>
+                                        <td><h4 className="mr-2 mb-2 float-right">Location</h4></td>
+                                        <td><h4 className="mb-2 "> : </h4></td>
+                                        <td><h4 className="ml-2 mb-2 float-left"><b>{job.address}</b> </h4></td>
+                                    </tr>
+                                    <tr>
+                                        <td><h4 className="mr-2 mb-2 float-right">Job Time</h4></td>
+                                        <td><h4 className="mb-2 "> : </h4></td>
+                                        <td><h4 className="ml-2 mb-2 float-left"><b>{job.time}</b> </h4></td>
+                                    </tr>
+                                    <tr>
+                                        <td><h4 className="mr-2 mb-2 float-right">Company</h4></td>
+                                        <td><h4 className="mb-2 "> : </h4></td>
+                                        <td><h4 className="ml-2 mb-2 float-left"><b>{job.company}</b> </h4></td>
+                                    </tr>
+                                    {
+                                        job.salary === null ?
+                                            <tr>
+                                                <td><h4 className="mr-2 mb-2 float-right">Salary</h4></td>
+                                                <td><h4 className="mb-2 "> : </h4></td>
+                                                <td><h4 className="ml-2 mb-2 float-left"><b>Determine When Agree</b> </h4></td>
+                                            </tr>
+                                            :
+                                            <tr>
+                                                <td><h4 className="mr-2 mb-2 float-right">Salary</h4></td>
+                                                <td><h4 className="mb-2 "> : </h4></td>
+                                                <td><h4 className="ml-2 mb-2 float-left"><b>{job.salary}</b> </h4></td>
+                                            </tr>
+                                    }
+                                </tbody>
+                            </table>
+                            <h5 className="mt-3 mb-5"> {job.info} </h5>
                             {
                                 apply === null ?
                                     localStorage.getItem("user_id") !== job.user_id ?
-                                        <button
-                                            onClick={this.applyJob}
-                                        > Apply Now </button>
+                                        <div className="cell" data-title="Field">
+                                            <div className="button_cont mt-3" align="center">
+                                                <button onClick={this.applyJob} type="submit" className="add-job apply-job" rel="nofollow noopener">Apply Job</button>
+                                            </div>
+                                        </div>
                                         :
                                         <>
                                             <br />
-                                            <h4> You are job owner, check your dashboard to show applier</h4>
+                                            <h4> You are job owner, check your dashboard to show appliers</h4>
                                         </>
                                     :
                                     <>

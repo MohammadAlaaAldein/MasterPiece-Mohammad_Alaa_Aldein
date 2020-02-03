@@ -99,7 +99,7 @@ iframe {
 .container-contact100 {
   margin-top: -50px;
   width: 100%;  
-  min-height: 91vh;
+  min-height: 89vh;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -160,7 +160,7 @@ iframe {
   background-size: cover;
   background-position: center;
 
-  padding: 88px 15px 50px 15px;
+  padding: 66px 15px 40px 15px;
 }
 
 .contact100-form-title-1 {
@@ -307,7 +307,7 @@ textarea.input100 {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 8px;
+  padding-top: 0px;
 }
 
 .contact100-form-btn {
@@ -448,3 +448,47 @@ textarea.input100 {
 }
 
 
+
+
+.msg{
+  margin-top: -20px;
+  text-align: center;
+  font-size: 30px;
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.company-msg{
+  margin-top: 10px;
+/* text-align: center; */
+  font-size: 30px;
+  color: green;
+  margin-left: auto ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.delete{
+  font-size: 30px;
+  color: red;
+  position: fixed;
+  right: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 350px;
+}
+
+.admindelete{
+  font-size: 30px;
+  color: red;
+  position: fixed;
+  right: 40%;
+  top: 17%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.adminread{
+  font-size: 30px;
+  color: green;
+  position: fixed;
+  right: 40%;
+  top: 17%;
+  font-family: Arial, Helvetica, sans-serif;
+}

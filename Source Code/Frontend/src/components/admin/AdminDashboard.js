@@ -6,7 +6,7 @@ export default class AdminDashboard extends Component {
 
     state = {
         messages: null,
-        refresh: null
+        msg: null
     }
 
 
@@ -17,7 +17,7 @@ export default class AdminDashboard extends Component {
     getMessages = () => {
         axios.get("http://localhost:9000/getMessages")
             .then(res => {
-                console.log(res.data)
+                // console.log(res.data)
                 this.setState({ messages: res.data })
             })
     }
@@ -37,8 +37,13 @@ export default class AdminDashboard extends Component {
             .then(res => {
                 console.log(res.data)
             })
-        // this.setState({ refresh: null })
-        window.location.reload()
+        this.setState({ msgread: "Message marked as readed" })
+        this.getMessages()
+        this.getMessages()
+        this.getMessages()
+        setInterval(() => {
+            this.setState({ msgread: null })
+        }, 4000);
     }
 
 
@@ -47,17 +52,25 @@ export default class AdminDashboard extends Component {
             .then(res => {
                 console.log(res.data)
             })
-        // this.setState({ refresh: null })
-        window.location.reload()
+        // window.location.reload()
+        this.setState({ msgdelete: "Message has been deleted" })
+        this.getMessages()
+        this.getMessages()
+        this.getMessages()
+        setInterval(() => {
+            this.setState({ msgdelete: null })
+        }, 4000);
     }
 
 
 
 
     render() {
-        const { messages } = this.state
+        const { messages, msgdelete,msgread } = this.state
         return (
             <div className="limiter">
+                <p className="admindelete"> {msgdelete} </p>
+                <p className="adminread"> {msgread} </p>
 
                 <div className="container-table100">
                     <div className="wrap-table100">
@@ -90,7 +103,7 @@ export default class AdminDashboard extends Component {
                                                 </div>
                                                 <div className="cell " data-title="Location">
                                                     <div className="button_cont float-left ml-4" align="center" onClick={() => this.readMessage(message._id)}><button className="read" rel="nofollow noopener">Mark as Readed</button></div>
-                                                    <div className="button_cont" align="center"><a className="read x fa fa-trash" onClick={() => this.deleteMessage(message._id)} rel="nofollow noopener"></a></div>
+                                                    <div className="button_cont" align="center"><button className="read x fa fa-trash" onClick={() => this.deleteMessage(message._id)} rel="nofollow noopener"></button></div>
                                                 </div>
                                             </div>
 

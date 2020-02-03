@@ -8,9 +8,10 @@ export default class Logout extends Component {
 
     logout = async () => {
         localStorage.setItem("user_id", null)
+        localStorage.setItem("role", null)
         this.props.refresh()
         // this.props.refresh()
-        this.props.history.push("/home")
+        this.props.history.push("/")
     }
 
     render() {

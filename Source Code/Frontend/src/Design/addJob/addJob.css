@@ -1,0 +1,336 @@
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+
+
+/*---------------------------------------------*/
+
+/*---------------------------------------------*/
+.ajinput {
+	outline: none;
+	border: none;
+}
+
+.ajinput[type="number"] {
+    -moz-appearance: textfield;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.ajinput[type="number"]::-webkit-outer-spin-button,
+.ajinput[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.ajtextarea {
+  outline: none;
+  border: none;
+}
+
+.ajtextarea:focus, .ajinput:focus {
+  border-color: transparent !important;
+}
+
+.ajinput:focus::-webkit-input-placeholder { color:transparent; }
+.ajinput:focus:-moz-placeholder { color:transparent; }
+.ajinput:focus::-moz-placeholder { color:transparent; }
+.ajinput:focus:-ms-input-placeholder { color:transparent; }
+
+.ajtextarea:focus::-webkit-input-placeholder { color:transparent; }
+.ajtextarea:focus:-moz-placeholder { color:transparent; }
+.ajtextarea:focus::-moz-placeholder { color:transparent; }
+.ajtextarea:focus:-ms-input-placeholder { color:transparent; }
+
+.ajinput::-webkit-input-placeholder {color: #999999;}
+.ajinput:-moz-placeholder {color: #999999;}
+.ajinput::-moz-placeholder {color: #999999;}
+.ajinput:-ms-input-placeholder {color: #999999;}
+
+.ajtextarea::-webkit-input-placeholder {color: #999999;}
+.ajtextarea:-moz-placeholder {color: #999999;}
+.ajtextarea::-moz-placeholder {color: #999999;}
+.ajtextarea:-ms-input-placeholder {color: #999999;}
+
+/*---------------------------------------------*/
+.ajbutton {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+.ajbutton:hover {
+	cursor: pointer;
+}
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Contact ]*/
+
+.ajcontainer-contact100 {
+  margin-top: -50px;
+  width: 100%;  
+  min-height: 91.5vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+
+  /* background-image: url("../../images/7.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.contact100-map {
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.ajwrap-contact100 {
+  width: 667px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+/*==================================================================
+[ Title form ]*/
+.ajcontact100-form-title {
+  width: 100%;
+  height: 120px;
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
+  /* background-image: url("../../images/4.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  padding: 64px 15px 64px 15px;
+}
+
+.ajcontact100-form-title-1 {
+  margin-top: -20px;
+  font-family: Poppins-Bold;
+  font-size: 40px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 7px;
+}
+
+.ajcontact100-form-title-2 {
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+.ajcontact100-form-title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(54,84,99,0.7);
+}
+
+
+/*==================================================================
+[ Form ]*/
+
+.ajcontact100-form {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 43px 88px 57px 100px;
+}
+
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.ajwrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #b2b2b2;
+  margin-bottom: 10px;
+}
+
+
+/*---------------------------------------------*/
+.ajinput100 {
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.2;
+
+  display: block;
+  width: 100%;
+  background: transparent;
+  padding: 0 5px;
+}
+
+
+/*---------------------------------------------*/
+.ajinput.ajinput100 {
+  height: 45px;
+}
+
+
+.ajtextarea.ajinput100 {
+  min-height: 115px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+}
+
+
+.ajinput100:focus {
+  width: 100%;
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.ajcontainer-contact100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 8px;
+}
+
+.ajcontact100-form-btn {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 160px;
+  height: 50px;
+  background-color: #57b846;
+  border-radius: 25px;
+
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.ajcontact100-form-btn i {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.ajcontact100-form-btn:hover {
+  background-color: #333333;
+}
+
+.ajcontact100-form-btn:hover i {
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 576px) {
+  .ajcontact100-form {
+    padding: 43px 15px 57px 117px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ajcontact100-form {
+    padding: 43px 15px 57px 15px;
+  }
+}
+
+
+/*------------------------------------------------------------------
+[ Alert validate ]*/
+
+.ajvalidate-input {
+  position: relative;
+}
+
+
+.time{
+  /* margin-left: 70px; */
+  width: 226px;
+}
+
+.ajbg{
+    background-image: url("../../images/7.jpg");
+}
+.ajtbg{
+    background-image: url("../../images/4.jpg");
+}
+
+.ajabg{
+  background-image: url("../../images/9.jpg");
+}
+
+.ajatbg{
+  background-image: url("../../images/6.jpg");
+}
+
+.acbg{
+  background-image: url("../../images/12.jpg");
+}
+
+.actbg{
+  background-image: url("../../images/11.jpg");
+}

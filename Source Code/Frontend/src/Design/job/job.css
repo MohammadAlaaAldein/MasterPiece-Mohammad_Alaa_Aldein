@@ -1,0 +1,33 @@
+.job{
+    width: 100%;
+    margin-top: -50px;
+    min-height: 90vh;
+    font-family: PT Serif, serif;
+    text-align: center;
+    background-image: url("../../images/13.jpg");
+    position: relative;
+    z-index: 1;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.job-content{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    text-decoration: none;
+    text-decoration-line: none;
+    /* margin-top: 0px; */
+}
+
+.job-table{
+    margin: auto;
+}
+.apply-job{
+    /* text-align: center; */
+    position: absolute;
+    top:10%;
+    right:5%;
+}

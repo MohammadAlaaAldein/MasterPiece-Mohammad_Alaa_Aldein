@@ -22,13 +22,15 @@
 .limiter {
   width: 100%;
   margin: 0 auto;
-  margin-top: -50px;
+  margin-top: -100px;
+  background-image: url("../../../images/13.jpg");
+background-size: cover;
 }
 
 .container-table100 {
   width: 100%;
-  min-height: 91.5vh;
-  background: #c4d3f6;
+  min-height: 98.5vh;
+  /* background: #c4d3f6; */
 
 
   display: -webkit-box;

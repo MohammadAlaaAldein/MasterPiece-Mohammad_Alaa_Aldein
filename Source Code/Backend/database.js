@@ -81,6 +81,9 @@ const companiesSchema = new mongoose.Schema({
     address: String,
     time: String,
     info: String,
+    website: String,
+    email:String,
+    phone:Number
 })
 
 const Companies = mongoose.model("companies", companiesSchema)
@@ -433,7 +436,7 @@ const getCompany = (cb, obj) => {
 // Delete Company Function
 const deleteCompany = (cb, obj) => {
     let _id = obj._id
-    console.log(_id)
+    // console.log(_id)
     Companies.deleteOne(
         { _id },
         (err, company) => {

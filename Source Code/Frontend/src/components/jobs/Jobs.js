@@ -16,6 +16,7 @@ export default class Jobs extends Component {
 
     state = {
         jobs: null,
+        msg: null
     }
 
     UNSAFE_componentWillMount() {
@@ -24,7 +25,7 @@ export default class Jobs extends Component {
 
     searchJob = async event => {
         event.preventDefault()
-        let field = event.target["field"].value.toLowerCase()
+        let field = event.target["field"].value
         axios.post("http://localhost:9000/searchJob", { field })
             .then(res => {
                 let jobs = res.data
@@ -44,110 +45,85 @@ export default class Jobs extends Component {
         axios.post("http://localhost:9000/deleteJob", { _id })
             .then(res => {
                 // console.log(res.data)
-                window.location.reload()
+                // window.location.reload()
             })
+        this.setState({ msg: "Job Deleted" })
+        this.getJobs()
+        this.getJobs()
+        this.getJobs()
+        setInterval(() => {
+            this.setState({ msg: null })
+        }, 4000);
     }
 
     render() {
-        const { jobs } = this.state
+        const { jobs, msg } = this.state
 
         return (
             <div className="jobs-body">
+                <div className="jobs float-right mr-4 "  >
 
-                <div className="jobs">
-                    <div className="">
-
-                        <div className="cell float-left" data-title="Location">
-                            <div className="button_cont float-left ml-4" align="center"><Link to="AddJob" className="add-job" rel="nofollow noopener">Add Job</Link></div>
-                        </div>
-
-
-                        <form className="float-right mr-5" onSubmit={this.searchJob}>
-                            <select name="field" className="select-jobs">
-                                <option className="dropdown-item">Job Field</option>
-                                <option className="dropdown-item" value="IT">IT</option>
-                                <option className="dropdown-item" value="Development">Development</option>
-                                <option className="dropdown-item" value="Medicine">Health</option>
-                                <option className="dropdown-item" value="Engineering">Engineering</option>
-                                <option className="dropdown-item" value="Accounting">Education</option>
-                                <option className="dropdown-item" value="Accounting">Trade</option>
-                                <option className="dropdown-item" value="Accounting">Managment</option>
-                                <option className="dropdown-item" value="Accounting">Business</option>
-                                <option className="dropdown-item" value="Accounting">Others</option>
-                            </select>
-                            <div className="cell float-right" data-title="Location">
-                                <div className="button_cont float-left ml-4" align="center">
-                                    <button className="add-job" rel="nofollow noopener">Filter</button>
-                                </div>
-                            </div>
-                        </form>
+                    <div className="cell mt-5" data-title="Location">
+                        <div className="button_cont" align="center"><Link to="AddJob" className="add-job" rel="nofollow noopener">Add Job</Link></div>
                     </div>
 
-
-                    <div className="d-flex flex-wrap">
-                        {/* <div className="row"> */}
-                        {
-                            jobs !== null ?
-                                jobs.map((job, key) => {
-                                    return (
-                                        <div key={key} className="card ml-5 mb-5" style={{ width: "18rem" }}>
-                                            {/* <img src={job.field} className="card-img-top" alt="..." /> */}
-                                            <div className="card-body">
-                                                <h4 className="card-title">{job.name}</h4>
-                                                <h5 className="card-text">{job.company}</h5>
-                                                <p className="card-text">{job.info}</p>
-                                                <div className="button_cont float-left" align="center">
-                                                    <Link to="Job" onClick={() => localStorage.setItem("job", job._id)} className="add-job" rel="nofollow noopener">More Info</Link>
-                                                </div>
-                                                {
-                                                    localStorage.getItem("role") === "admin" || localStorage.getItem("user_id") === job.user_id ?
-                                                        // <div className="button_cont float-left" align="center">
-                                                        //     <Link to="Job" onClick={() => localStorage.setItem("job", job._id)} className="add-job" rel="nofollow noopener">More Info</Link>
-                                                        // </div>
-                                                        <div className="button_cont float-right" align="center">
-                                                            <button className="read x fa fa-trash" rel="nofollow noopener" onClick={() => this.deleteJob(job._id)}></button>
-                                                        </div>
-
-                                                        :
-                                                        null
-                                                }
-
-                                            </div>
-                                        </div>
-                                        // <div key={key} className="card ml-5 mt-5" style={{ width: "18rem" }}>
-                                        //     {/* <div key={key} className="col" style={{ width: "18rem" }}> */}
-                                        //     {/* <img src="..." className="card-img-top" alt="..."> */}
-                                        //     <div className="card-body">
-                                        //         <h5 className="card-title">{job.name}</h5>
-                                        //         <p className="card-text">{job.company}</p>
-                                        //     </div>
-                                        //     {/* <ul className="list-group list-group-flush">
-                                        //     <li className="list-group-item"> {} </li>
-                                        //     <li className="list-group-item"> {} </li>
-                                        //     <li className="list-group-item"> {} </li>
-                                        // </ul> */}
-                                        //     <div className="card-body">
-                                        //         <Link className="card-link" to="Job"
-                                        //             onClick={() => localStorage.setItem("job", job._id)}
-                                        //         >
-                                        //             More Info
-                                        //     </Link>
-                                        //     </div>
-                                        //     <br />
-                                        // 
-                                        // {
-                                        //     localStorage.getItem("role") === "admin" || localStorage.getItem("user_id") === job.user_id ?
-                                        //         <button onClick={() => this.deleteJob(job._id)} > Delete </button>
-                                        //         :
-                                        //         null
-                                        // }
-                                        // </div>
-                                    )
-                                })
-                                : null
-                        }
-                    </div >
+                    <form className="mt-5" onSubmit={this.searchJob}>
+                        <select name="field" className="select-jobs">
+                            <option className="dropdown-item">Job Field</option>
+                            <option className="dropdown-item" value="IT">IT</option>
+                            <option className="dropdown-item" value="Development">Development</option>
+                            <option className="dropdown-item" value="Health">Health</option>
+                            <option className="dropdown-item" value="Engineering">Engineering</option>
+                            <option className="dropdown-item" value="Education">Education</option>
+                            <option className="dropdown-item" value="Trade">Trade</option>
+                            <option className="dropdown-item" value="Managment">Managment</option>
+                            <option className="dropdown-item" value="Business">Business</option>
+                            <option className="dropdown-item" value="Others">Others</option>
+                        </select>
+                        <div className="cell" data-title="Field">
+                            <div className="button_cont mt-3" align="center">
+                                <button type="submit" className="add-job" rel="nofollow noopener">Filter</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
+
+
+                <div className="ml-5">
+                    {
+                        jobs !== null ?
+                            jobs.map((job, key) => {
+                                return (
+                                    <div key={key} className="card mb-5" style={{ width: "80%" }}>
+                                        {/* <img src={job.field} className="card-img-top" alt="..." /> */}
+                                        <div className="card-body">
+                                            <h4 className="card-title">{job.name}</h4>
+                                            <h5 className="card-text">{job.company}</h5>
+                                            <h6 className="card-text">{job.address}</h6>
+                                            {/* <p className="card-text">{job.info}</p> */}
+                                            <div className="button_cont float-left mt-3" align="center">
+                                                <Link to="Job" onClick={() => localStorage.setItem("job", job._id)} className="add-job" rel="nofollow noopener">More Info</Link>
+                                            </div>
+                                            {
+                                                localStorage.getItem("role") === "admin" || localStorage.getItem("user_id") === job.user_id ?
+                                                    // <div className="button_cont float-left" align="center">
+                                                    //     <Link to="Job" onClick={() => localStorage.setItem("job", job._id)} className="add-job" rel="nofollow noopener">More Info</Link>
+                                                    // </div>
+                                                    <div className="button_cont float-right" align="center">
+                                                        <button className="read x fa fa-trash" rel="nofollow noopener" onClick={() => this.deleteJob(job._id)}></button>
+                                                    </div>
+
+                                                    :
+                                                    null
+                                            }
+                                        </div>
+                                    </div>
+                                )
+                            })
+                            : null
+                    }
+                </div>
+                <p className="delete"> {msg} </p>
             </div>
         )
     }

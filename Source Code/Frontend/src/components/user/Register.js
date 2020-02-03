@@ -39,7 +39,8 @@ export default class Register extends Component {
                             // console.log(user)
                             localStorage.setItem("user_id", user._id)
                             localStorage.setItem("role", user.role)
-                            this.props.refresh()
+                            // this.props.refresh()
+                            this.props.history.goBack()
                             this.props.msg(user.name)
                         }
                     })

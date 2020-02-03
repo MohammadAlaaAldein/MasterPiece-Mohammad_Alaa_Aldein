@@ -5,7 +5,8 @@ import "../../Design/contactus/css/contactus.css"
 export default class Contactus extends Component {
 
     state = {
-        user: null
+        user: null,
+        msg: null
     }
 
 
@@ -33,11 +34,12 @@ export default class Contactus extends Component {
             .then(res => {
                 console.log(res.data)
             })
-        window.location.reload()
+        // window.location.reload()
+        this.setState({ msg: "Message Sent, Thank You ^_^" })
     }
 
     render() {
-        const { user } = this.state
+        const { user, msg } = this.state
         return (
             //     <div>
             //         <form onSubmit={this.contactus}>
@@ -85,7 +87,6 @@ export default class Contactus extends Component {
                             }
                             <span className="focus-input100"></span>
                         </div>
-
                         <div className="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
                             <span className="label-input100">Email</span>
                             {
@@ -106,12 +107,19 @@ export default class Contactus extends Component {
                         <div className="container-contact100-form-btn">
                             <button className="contact100-form-btn contact-button">
                                 <span>
-                                    Send Message 
+                                    Send Message
 							        <i className="ml-2 fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
                                 </span>
                             </button>
                         </div>
                     </form>
+                    {
+                        msg === null ?
+                            <p style={{ color: "white" }}> . </p>
+                            :
+                            <p className="msg"> {msg} </p>
+
+                    }
                 </div>
             </div>
 

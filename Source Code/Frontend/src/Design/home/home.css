@@ -9,23 +9,44 @@
 
 .text1{
     position: absolute;
-    top: 55%;
-    left: 50%;
+    top: 30%;
+    left: 57%;
     transform: translate(-50%, -50%);
     font-family: Georgia, serif	;
-    color: rgb(0, 0, 0);
-    font-size: 80px; 
+    color: rgb(255, 255, 255);
+    font-size: 50px; 
   }
    .text2{
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: Georgia, serif	;
     font-size: 90px;
   }
 
-  .text3 {
+  .text3{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, serif	;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+  }
+
+  .text4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, serif	;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+  }
+
+
+  .text5 {
     position: absolute;
     top: 50%;
     left: 50%;
