@@ -265,7 +265,7 @@ export default class UserDashboard extends Component {
                                                 </td>
                                                 <td>
                                                     <div className="button_cont" align="center">
-                                                        <button className="dash-read x fa fa-trash" rel="nofollow noopener" onClick={() => this.deleteJob(jobApplication._id)}></button>
+                                                        <button className="dash-read x fa fa-trash" rel="nofollow noopener" onClick={() => this.deleteJobApplcation(jobApplication._id)}></button>
                                                     </div>
                                                 </td>
                                             </tr>
