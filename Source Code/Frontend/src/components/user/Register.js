@@ -36,10 +36,8 @@ export default class Register extends Component {
                         }
                         else {
                             let user = res.data
-                            // console.log(user)
                             localStorage.setItem("user_id", user._id)
                             localStorage.setItem("role", user.role)
-                            // this.props.refresh()
                             this.props.history.goBack()
                             this.props.msg(user.name)
                         }
@@ -96,26 +94,6 @@ export default class Register extends Component {
                     </section>
                 </div>
             </div >
-            // {/* // <div className="registerBody">
-            // //     <h4>Please Register</h4>
-            // //     <form onSubmit={this.register} >
-            // //         <input type="text" name="name" placeholder="Name" />
-            // //         <br />
-            // //         <br />
-            // //         <input type="email" name="email" placeholder="Email" />
-            // //         <br />
-            // //         <br />
-            // //         <input type="password" name="password" placeholder="Password" />
-            // //         <br />
-            // //         <br />
-            // //         <input type="password" name="repassword" placeholder="Re password" />
-            // //         <br />
-            // //         <br />
-            // //         <input type="submit" value="Register" />
-            // //     </form>
-            // //     <Link to="Login"> You already registered? Login now </Link>
-            // //     <h4> {this.state.msg} </h4>
-            // // </div> */}
         )
     }
 }

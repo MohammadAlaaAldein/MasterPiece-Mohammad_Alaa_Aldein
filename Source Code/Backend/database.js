@@ -166,7 +166,6 @@ const login = (cb, obj) => {
 
 const getLoggedInUser = (cb, obj) => {
     let _id = obj._id
-    // console.log(_id)
     Users.findOne(
         { _id },
         (err, doc) => {
@@ -201,7 +200,7 @@ const getUsers = cb => {
 // Update Profile Function
 
 const updateProfile = (cb, { _id, name, email, phone, field, address, experience, info, born }) => {
-    Users.update(
+    Users.updateOne(
         { _id },
         { $set: { name, email, phone, field, address, experience, info, born } },
         (err, doc) => {
@@ -224,7 +223,6 @@ const updateProfile = (cb, { _id, name, email, phone, field, address, experience
 
 const addJob = (cb, obj) => {
     let newJob = obj
-    // console.log(newJob)
     Jobs.create(
         newJob,
         (err, doc) => {
@@ -257,7 +255,6 @@ const getJobs = cb => {
 
 const getJob = (cb, obj) => {
     let _id = obj.job_id
-    // console.log(_id)
     Jobs.findOne(
         { _id },
         (err, job) => {
@@ -309,7 +306,6 @@ const getUserJobsApplications = (cb, _id) => {
 const applyJob = (cb, obj) => {
     let _id = obj._id
     let applied = obj.applied
-    // console.log("JOB ID", _id, "USER ID", user_id)
     Jobs.updateOne(
         { _id },
         { $set: { applied } },
@@ -436,7 +432,6 @@ const getCompany = (cb, obj) => {
 // Delete Company Function
 const deleteCompany = (cb, obj) => {
     let _id = obj._id
-    // console.log(_id)
     Companies.deleteOne(
         { _id },
         (err, company) => {
@@ -490,7 +485,6 @@ const deleteJobApplication = (cb, obj) => {
 const deleteJobApplier = (cb, obj) => {
     let _id = obj.job_id
     let applied = obj.appliersAfterDelete
-    // console.log("JOB ID : ", _id, "NEW APPLIERS IS : ", appliers)
 
     Jobs.updateOne(
         { _id },
@@ -612,7 +606,6 @@ const searchJob = (cb, obj) => {
 // Search Job Application Function
 const searchJobApplication = (cb, obj) => {
     let field = obj.field
-    // console.log(field)
     JobsApplications.find(
         { field },
         (err, docs) => {
@@ -631,7 +624,6 @@ const searchJobApplication = (cb, obj) => {
 // Search Company Function
 const searchCompany = (cb, obj) => {
     let field = obj.field
-    // console.log(field)
     Companies.find(
         { field },
         (err, docs) => {

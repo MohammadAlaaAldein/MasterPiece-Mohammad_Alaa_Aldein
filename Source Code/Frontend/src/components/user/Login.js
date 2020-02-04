@@ -22,7 +22,6 @@ export default class Login extends Component {
             axios.post("http://localhost:9000/login", user)
                 .then(res => {
                     let user = res.data
-                    console.log(user)
                     if (user !== null) {
                         localStorage.setItem("user_id", user._id)
                         localStorage.setItem("role", user.role)
@@ -32,7 +31,6 @@ export default class Login extends Component {
                     }
                     else {
                         this.setState({ msg: "Email or Password is Incorrect" })
-                        console.log(this.state.msg)
                     }
                 })
     }
@@ -40,23 +38,6 @@ export default class Login extends Component {
     render() {
         const { msg } = this.state
         return (
-            // <div>
-            //     <h4>Please Login</h4>
-            //     <form onSubmit={this.login} >
-            //         <input type="email" name="email" placeholder="Email" />
-            //         <br />
-            //         <br />
-            //         <input type="password" name="password" placeholder="Password" />
-            //         <br />
-            //         <br />
-            //         <input type="submit" value="Login" />
-            //     </form>
-            //     <Link to="Register"> You don't have account? Register now </Link>
-            //     <h4> {this.state.msg} </h4>
-            // </div>
-
-
-
             <div className="login-body">
 
                 <div className="main ">

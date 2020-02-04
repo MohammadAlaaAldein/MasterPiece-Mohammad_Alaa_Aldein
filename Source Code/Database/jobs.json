@@ -1,0 +1,352 @@
+{ 
+    "_id" : ObjectId("5e3162a73eddca03a499ecbe"), 
+    "applied" : [
+        "5e3750e678d62549dcf0a19c"
+    ], 
+    "name" : "Lead Trainer", 
+    "user_id" : "5e068352bcbea5359ce8333b", 
+    "field" : "Development", 
+    "experience" : NumberInt(5), 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Any", 
+    "company" : "Orange", 
+    "info" : " IT programming with expert knowledge of Internet languages. (front end and back end),Expert knowledge of the principles of versioning under Github.,Languages: Python, C#, JAVA and Java Script, PHP, ASP.net, Firewall, HTML,Comfortable with Linux/Unix system, professional social networks, one or more project management tools,Big plus on:English Language, Knowledge of agile and UX methodologies, Expert knowledge of database management and administration (SQL and/or potentially NoSQL)", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e31692d3eddca03a499ecc0"), 
+    "applied" : [
+
+    ], 
+    "name" : "Senior Operating Systems Engineer", 
+    "user_id" : "5e068352bcbea5359ce8333b", 
+    "field" : "IT", 
+    "experience" : NumberInt(5), 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Any", 
+    "company" : "Bank of Jordan", 
+    "info" : "1.Install and configure Linux systems, and virtualized environments.  2.Perform operating system maintenance and troubleshooting issues.  3.Servers and storage Administrator/Specialist  4.Advanced knowledge of system vulnerabilities and security issues  5.Developing, designing, deploying, migrating, integrating, and configuring of cloud infrastructure.  6.Advanced knowledge of Windows Server  7.Managing deployments/rollouts of operating systems.  8.Backup and recovery processes in accordance with the Bank disaster recovery and business continuity strategies.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e316b2e3eddca03a499ecc1"), 
+    "applied" : [
+        "5e068352bcbea5359ce8333b"
+    ], 
+    "name" : "Security Officer", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Others", 
+    "experience" : NumberInt(3), 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Marriott", 
+    "info" : "Patrol all areas of the property and assist guests with room access Monitor security feeds and conduct daily physical hazard inspections Respond to accidents and assist guests/employees during emergency situations Defuse guest disturbances and escort individuals from the property if necessary Conduct investigations, gather evidence, and facilitate interviews with relevant parties Complete required shift reports and maintain confidentiality of all loss prevention documents", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e316ba73eddca03a499ecc2"), 
+    "applied" : [
+
+    ], 
+    "name" : "Branch Manager", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Managment", 
+    "experience" : NumberInt(4), 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Majid Al Futtaim", 
+    "info" : "Supermarket Strategy Development and Implementation  Ensure implementation of MAF Retail’s supermarket plans in line with the supermarket strategies and procedures in collaboration with the Head Office and Corporate Office Commercial Performance  Apply qualitative and quantitative analysis to measure and evaluate commercial performance, and provide recommendations to increase profitability and sales turnover Maximize sales and profitability by controlling costs within the budgetary guidelines Identify internal and external opportunities for the supermarket to enhance and optimize commercial performance Initiate and ensure application of comparative studies between departments that can contribute to the efficiency of the commercial performance", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e316ca73eddca03a499ecc3"), 
+    "applied" : [
+        "5e068352bcbea5359ce8333b"
+    ], 
+    "name" : "Mathematics Teacher", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Education", 
+    "experience" : NumberInt(7), 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Kaizen Firm", 
+    "info" : "We are looking to hire a math teacher with Mathematics educational background from 3-7 years of experience, Preferably with e-learning experience to work in an educational company.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e316d113eddca03a499ecc4"), 
+    "applied" : [
+        "5e068352bcbea5359ce8333b"
+    ], 
+    "name" : "Web Designer", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Development", 
+    "experience" : NumberInt(5), 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Leading Point Software", 
+    "info" : " Execute all visual design stages from concept to final hand-off to engineering Conceptualize original website design ideas that bring simplicity and user-friendliness to complex roadblocks Create wireframes, storyboards, user flows, process flows and site maps to communicate interaction and design ideas Present and defend designs and key deliverables to peers and executive level stakeholders Establish and promote design guidelines, best practices, and standards Gather and evaluate user requirements in collaboration with product managers and engineers. Identify and troubleshoot UX problems (e.g. responsiveness). Determine the message the design should portray Develop graphics for product illustrations, logos, and websites Talent in creating multimedia items Comfortable in a fast-paced, demanding environment Ability to work well with others and contribute to a team environment Ability to interact effectively with people at every level of the organization", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e316e503eddca03a499ecc6"), 
+    "applied" : [
+
+    ], 
+    "name" : "NPO (Pharmaceuticals)", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Health", 
+    "experience" : NumberInt(2), 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Contract", 
+    "company" : "World Health Organization", 
+    "info" : "\nContribute to the planning, formulation, implementation, monitoring and evaluation of the medical supply chain activities and stock management.\nContribute to the strengthening of the regulatory system of medical products and implementation of good regulatory practices through provision of technical assistance and capacity building\nCollaborate with the WHO team and MoH on quality control and assurance systems for procurement, supply chain management, distribution and storage, including cold storage of medical products and issues related to access of quality-assured medical products, market intelligence, pricing and the appropriate use of medical products at the various health care levels.\nProvide technical insight for the upgrading and automation of the warehouse management capacity at the central and peripheral level.\nDevelop and update the national essential medicines list for the country.\nCollaborate with other colleagues at the WCO to conduct national capacity building activities in the area of regulation of medical products including pharmacovigilance and supply chain management of medical products including procurement systems\nRecommend ways to improve medical device management in health care facilities, in compliance with WHO standards and guiding documents.\nCoordinate the publishing and dissemination of information, documents and guidelines on best practices and coordinated efforts pertaining to the various technical activities.\n", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3172243eddca03a499ecc8"), 
+    "applied" : [
+
+    ], 
+    "name" : "Regional Medical Advisor, Jordan", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Health", 
+    "experience" : NumberInt(3), 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Novo Nordisk", 
+    "info" : "As the Regional Medical Advisor your main responsibility will be to build and maintain scientific understanding of Novo Nordisk products in Jordan; share up-to-date medical knowledge and clinical trial data with internal and external stakeholders; leverage scientific and clinical expertise to create relationships with the Key Opinion Leaders (KOLs) and Healthcare Professionals (HCPs), to ensure the correct positioning of the company’s portfolio.\n\nOne of your responsibilities will be to keep our internal stakeholders trained and up to date in relation to our focus therapy areas and to the company’s products, and to lead medical events/initiatives beside full responsibility on the medical content for symposia/meetings for health care providers.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3172993eddca03a499ecc9"), 
+    "applied" : [
+
+    ], 
+    "name" : "Officer - Production", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Business", 
+    "experience" : NumberInt(2), 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Munich Re (Group) ", 
+    "info" : "Enter data received from the Participated Insurance Companies (PICs) in relation to enrollments and endorsements to MedNext system.\nCreate initial policy for individual business only.\nPrepare documents such as Policy Wordings, Beneficiary User’s Guide, Policy Schedules and Request Forms accurately.\nRespond to business queries from PICs / Clients effectively and efficiently.\nProvides excellent customer service to the PIC’s with a view to achieve maximum client satisfaction.\nUpdate operational departments such as Claims, Network, MCC departments on Policy adjustments, Cancellations, Refunds, and Renewals.\nDispatch documents for relevant PIC/ client and maintain a dispatch register for information.\nDispatch and assure scanning and entering all required documents on the archiving system.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e31781d3eddca03a499ecca"), 
+    "applied" : [
+
+    ], 
+    "name" : "Accountant", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Accounting", 
+    "experience" : NumberInt(1), 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Leaders International", 
+    "info" : "Bookkeeping including the recording, storing and retrieving of financial transactions.\nUpdate cashbooks regularly when any cash movement takes place and ensure that cash and bank balances correspond at all times with the cashbook balance.\nReview and check payment requests and their related supporting documents and make sure that they have the approvals and the authorizations needed from Programmes.\nMake sure that payment requests are in compliance with Leaders International for Economic Development and donors’ financial policies and procedures.\nPrepare payment vouchers, issue checks or bank transfers to settle payment requests.\nEnsure proper filing of all financial vouchers and reports and make sure that they are in good order.\nReviewing and checking partners/beneficiaries financial reports and supporting documents.\nAssist in preparing monthly and quarterly report and forecasts.\nEnsure compliance with procurement policies and procedures.\nWork closely with project team members on financial issues.\nMake field visits to partners based on need to check the original vouchers and supporting documents related to financial reports.\nParticipate in Bids Opening Committee.\nClose all financial related files when the year ends and open new files for the new year", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3178803eddca03a499eccb"), 
+    "applied" : [
+
+    ], 
+    "name" : "Administrative Assistant(m/f)", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Managment", 
+    "experience" : NumberInt(2), 
+    "salary" : null, 
+    "address" : "Irbid, Amman", 
+    "time" : "Full Time", 
+    "company" : "Enabel", 
+    "info" : "As the Administrative Assistant, you are supporting the Intervention Manager (per ENABEL’s\nOrganizational Chart) ensuring that office operations are running smoothly and effectively. This\nincludes organizing all aspects of the project events/workshops, providing logistical support,\nreception and secretariat tasks in addition to other administrative support, as required.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3178ba3eddca03a499eccc"), 
+    "applied" : [
+
+    ], 
+    "name" : "Marketing and sales representative", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Business", 
+    "experience" : NumberInt(4), 
+    "salary" : null, 
+    "address" : "", 
+    "time" : "Full Time", 
+    "company" : "Shobaki Group", 
+    "info" : "A BA in Electrical Engineering. Four years of low current systems experience in marketing and sales. Must be knowledgeable in marketing concepts and people management. Must be skilled in sales planning, client relationships and creative services. Also candidate are required to be very well in Business English (writing, speaking, and reading).", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3178ea3eddca03a499eccd"), 
+    "applied" : [
+
+    ], 
+    "name" : "Graphic Designer", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "IT", 
+    "experience" : NumberInt(2), 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Any", 
+    "company" : "The Children's Museum Jordan", 
+    "info" : "We are seeking to hire a professional who has an eye for detail, knows how to provide high-quality of designing skills and is able to work in a team. You should be a person who always seeks improvement, knows how to deliver results and values excellence.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3179183eddca03a499ecce"), 
+    "applied" : [
+
+    ], 
+    "name" : "Project Manager", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Managment", 
+    "experience" : NumberInt(4), 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "CARE International in Jordan", 
+    "info" : "The purpose of the Project Manager (PM) position is to provide overall leadership and coordination for ensuring the implementation and accomplishment of the objectives of the Program under his/her responsibility in line with CARE Jordan vision, goals, and program principles, standards, approaches and Strategic Plan. In consultation with the supervisor and in collaboration with the Program staff she/he develops annual implementation plans and budget, allocates appropriate resources to accomplish the plan, secures qualified staff and ensures that an appropriate monitoring system is in place to track progress and deviations of Program implementation. To promote the highest level of staff performance the PM ensures that all supervisors provide coaching and counseling to the Program staff. He/she establishes and maintains effective working relationships with key government partners and NGOs working in the same areas.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e317e2e3eddca03a499eccf"), 
+    "applied" : [
+
+    ], 
+    "name" : "Education Program Officer (Coach)", 
+    "user_id" : "5e068352bcbea5359ce8333b", 
+    "field" : "Education", 
+    "experience" : null, 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Research Triangle Institute", 
+    "info" : "BA or Master’s Degree in Early grades education or PhD in Education.\n4 years of experience in either in coaching and training early grades teachers.\nKnowledge of Jordanian and/or regional public school context.\nFluency in Arabic language is required, English language is also preferred.\nEvidence of strong writing skills in Arabic and English.\nFor South region, those who lives in Ma’an/Shobak or Perta is preferred. ", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e317f003eddca03a499ecd0"), 
+    "applied" : [
+
+    ], 
+    "name" : "Driver ", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Others", 
+    "experience" : NumberInt(2), 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Enabel", 
+    "info" : "As a Driver, you are supporting the program activities by facilitating transportation, security and\nadministrative services during the implementation period. Duties include transport of people and\ngoods efficiently on a timely manner and arranging regular cleaning and maintenance services for\nthe vehicle(s)", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e317f643eddca03a499ecd1"), 
+    "applied" : [
+
+    ], 
+    "name" : "Networks Engineer", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "IT", 
+    "experience" : NumberInt(5), 
+    "salary" : null, 
+    "address" : "Zarqa'a, Jordan", 
+    "time" : "Full Time", 
+    "company" : "EastNets", 
+    "info" : "DescriptionThe candidate will demonstrate proven experience in the design, installation, analysis, troubleshooting and maintenance of network, systems and security infrastructure.RESPONSIBILITIES• Supervise the testing and implementation of network, systems and security infrastructure, including the maintenance and upgrade of the existing infrastructure.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e317fc63eddca03a499ecd2"), 
+    "applied" : [
+        "5e068352bcbea5359ce8333b"
+    ], 
+    "name" : "Civil Engineer", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Engineering", 
+    "experience" : NumberInt(10), 
+    "salary" : null, 
+    "address" : "Saudi Arabia", 
+    "time" : "Contract", 
+    "company" : "Confidential Company", 
+    "info" : "Civil engineer is Urgently needed for one of the biggest contracting company in Saudi Arabia \n\nSkills\n10 years experience up to 20 years as project manager in road/infrastructure/Bridges.\nBachelor degree.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3180113eddca03a499ecd3"), 
+    "applied" : [
+
+    ], 
+    "name" : "Architect/Structural Engineer", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Engineering", 
+    "experience" : NumberInt(7), 
+    "salary" : null, 
+    "address" : "Jordan", 
+    "time" : "Full Time", 
+    "company" : "AECOM", 
+    "info" : "AECOM is seeking an Architect/Structural Engineer for complete assistance design services including preparation of structural systems designs, validation of structural integrity of designs using FEM (Finite Element Method) models, foundations, roofs, and site work drawings. Performs selected construction inspections, quality control, submittal reviews beyond the expertise of construction managers.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3180733eddca03a499ecd4"), 
+    "applied" : [
+
+    ], 
+    "name" : "Azure Synapse Analytics Support Engineer", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "IT", 
+    "experience" : NumberInt(2), 
+    "salary" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Microsoft", 
+    "info" : "Required:\n\n \n\nAt least 2 years’ experience supporting or maintaining complex mission critical database solutions, RDMS technologies, and/or SQL language.\nAt least 1 year of experience interacting with customers/end-users in any of the following: customer support, product support, technical support, end-user support, IT Admin support,\nConsulting, product development, network operations, software engineering, or I.T. consulting", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3180a43eddca03a499ecd5"), 
+    "applied" : [
+
+    ], 
+    "name" : "Java Developer", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Development", 
+    "experience" : NumberInt(3), 
+    "salary" : null, 
+    "address" : "Jordan", 
+    "time" : "Any", 
+    "company" : "Triphop, Inc.", 
+    "info" : "Provides application support for software running in production\nProactively reviews the Performance and Capacity of all aspects of production:\ncode, infrastructure, data, and message processing\nTriages high priority issues and outages as they arise\nParticipates in and leads learning activities around agile software development and development core practices\nEnsuring high-performance and availability, and managing all technical aspects\nCreate and maintain software documentation\nWorking closely with other developers\nAbility to review other developers source code and be able to understand it", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3181093eddca03a499ecd6"), 
+    "applied" : [
+
+    ], 
+    "name" : "IHG Future Leaders - JORDAN", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Health", 
+    "experience" : NumberInt(4), 
+    "salary" : null, 
+    "address" : "Jordan", 
+    "time" : "Contract", 
+    "company" : "InterContinental Hotels Group", 
+    "info" : "A clear passion for people, service and hospitality.\nExcited by a challenging accelerated programme pathway.\nStrong desire to learn and grow fast.\nExceptional leadership potential and skilled in building relationships.\nConfident communicator, proactive and thrive on a challenge.\nInterested in how a hotel works from planning a guest experience to understanding revenue drivers.\nFluent in English language (written and spoken) as well as (local language if required in country).\nYou’ll have the right to work – residency permit or passport.\nA hospitality degree OR a degree plus six months hospitality experience (supervisory preferred) OR 12 months hospitality experience (supervisory preferred).\n", 
+    "__v" : NumberInt(0)
+}

@@ -21,7 +21,6 @@ export default class AddJobApplication extends Component {
         let jobApplication = { name, user_id, field, experience, address, time, info }
         axios.post("http://localhost:9000/addJobApplication", jobApplication)
             .then(res => {
-                console.log("RES DATA : ", res.data)
             })
             this.setState({msg:"Your Seek Submitted, Good Luck ^_^"})
     }
@@ -110,37 +109,6 @@ export default class AddJobApplication extends Component {
                     }
                 </div>
             </div>
-
-
-            // <div>
-            //     <form onSubmit={this.addJobApplication} >
-            //         <input type="text" name="name" placeholder="Job Name" /><br />
-            //         <select defaultValue="Defult" name="field">
-            //             <option disabled>Job Field</option>
-            //             <option value="IT">IT</option>
-            //             <option value="Development">Development</option>
-            //             <option value="Medicine">Medicine</option>
-            //             <option value="Engineering">Engineering</option>
-            //             <option value="Accounting">Accounting</option>
-            //         </select><br />
-            //         <input type="number" name="experience" placeholder="Your Experience in this job" /><br />
-            //         <input type="number" name="salary" placeholder="Salary" /><br />
-            //         <select defaultValue="Defult" name="time">
-            //             <option disabled>Job Time</option>
-            //             <option value="Any">Any</option>
-            //             <option value="Full Time">Full Time</option>
-            //             <option value="Part Time">Part Time</option>
-            //             <option value="Training">Training</option>
-            //             <option value="Contract">Contract</option>
-            //             <option value="Freelancer">Freelancer</option>
-            //             <option value="Temporary">Temporary</option>
-            //             <option value="Consultants">Consultants</option>
-            //         </select><br />
-            //         <input type="text" name="address" placeholder="Address you prefer" /><br />
-            //         <textarea name="info" placeholder="More info" ></textarea><br />
-            //         <input type="submit" value="Add Job Application" />
-            //     </form>
-            // </div>
         )
     }
 }

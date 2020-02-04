@@ -32,38 +32,14 @@ export default class Contactus extends Component {
 
         axios.post("http://localhost:9000/contactus", contact)
             .then(res => {
-                console.log(res.data)
             })
-        // window.location.reload()
         this.setState({ msg: "Message Sent, Thank You ^_^" })
     }
 
     render() {
         const { user, msg } = this.state
         return (
-            //     <div>
-            //         <form onSubmit={this.contactus}>
-            //             {
-            //                 user !== null ?
-            //                     <>
-            //                         <input name="name" type="text" defaultValue={user.name} />
-            //                         <br />
-            //                         <input name="email" type="email" defaultValue={user.email} />
-            //                         <br />
-            //                         <textarea name="message"></textarea>
-            //                         <br />
-            //                         <input type="submit" value="Send Message" />
-            //                     </>
-            //                     : null
-            //             }
-
-            //         </form>
-            //     </div>
-            // )
-
-
             <div className="container-contact100">
-                {/* <div className="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div> */}
 
                 <div className="wrap-contact100">
                     <div className="contact100-form-title ">

@@ -1,0 +1,54 @@
+{ 
+    "_id" : ObjectId("5e068352bcbea5359ce8333b"), 
+    "name" : "Mohamamd Alaa Aldein", 
+    "email" : "mohammad.aladin996@gmail.com", 
+    "password" : "2121", 
+    "repassword" : "2121", 
+    "field" : "Development", 
+    "phone" : NumberInt(777519973), 
+    "address" : "Amman, Jordan", 
+    "experience" : NumberInt(1), 
+    "role" : "user", 
+    "__v" : NumberInt(0), 
+    "info" : "React"
+}
+{ 
+    "_id" : ObjectId("5e2078a62171212ad8f82ce4"), 
+    "name" : "admin", 
+    "email" : "admin@gmail.com", 
+    "password" : "2121", 
+    "repassword" : "2121", 
+    "phone" : NumberInt(777519973), 
+    "field" : "Development", 
+    "address" : "Ammad", 
+    "experience" : NumberInt(1), 
+    "info" : "MERN Stack", 
+    "role" : "admin", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3750e678d62549dcf0a19c"), 
+    "name" : "2", 
+    "email" : "2@d", 
+    "password" : "0", 
+    "phone" : null, 
+    "field" : null, 
+    "address" : null, 
+    "experience" : null, 
+    "info" : null, 
+    "role" : "user", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e37516378d62549dcf0a19d"), 
+    "name" : "0", 
+    "email" : "0@d", 
+    "password" : "0", 
+    "phone" : null, 
+    "field" : null, 
+    "address" : null, 
+    "experience" : null, 
+    "info" : null, 
+    "role" : "user", 
+    "__v" : NumberInt(0)
+}

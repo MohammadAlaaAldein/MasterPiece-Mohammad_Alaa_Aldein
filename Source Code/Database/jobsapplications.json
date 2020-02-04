@@ -1,0 +1,55 @@
+{ 
+    "_id" : ObjectId("5e35de49d7f9cb403425b173"), 
+    "name" : "Full Stack Developer", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Development", 
+    "experience" : NumberInt(3), 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "info" : "HIIIIIIIII", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3603183b1a0a103c609679"), 
+    "name" : "Pharmacy", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Health", 
+    "experience" : NumberInt(12), 
+    "address" : "Jordan", 
+    "time" : "Any", 
+    "info" : "HHHHHHIIIIIIIIIIIIIIIII", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3767e878d62549dcf0a19e"), 
+    "name" : "Full Stack Developer", 
+    "user_id" : "5e068352bcbea5359ce8333b", 
+    "field" : "Development", 
+    "experience" : NumberInt(10), 
+    "address" : "Any Where", 
+    "time" : "Full Time", 
+    "info" : "Im Full Stack web developer", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3767e978d62549dcf0a19f"), 
+    "name" : "Full Stack Developer", 
+    "user_id" : "5e068352bcbea5359ce8333b", 
+    "field" : "Development", 
+    "experience" : NumberInt(10), 
+    "address" : "Any Where", 
+    "time" : "Full Time", 
+    "info" : "Im Full Stack web developer", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e3767f278d62549dcf0a1a0"), 
+    "name" : "Full Stack Developer", 
+    "user_id" : "5e068352bcbea5359ce8333b", 
+    "field" : "Development", 
+    "experience" : NumberInt(10), 
+    "address" : "Any Where", 
+    "time" : "Full Time", 
+    "info" : "Im Full Stack web developer", 
+    "__v" : NumberInt(0)
+}

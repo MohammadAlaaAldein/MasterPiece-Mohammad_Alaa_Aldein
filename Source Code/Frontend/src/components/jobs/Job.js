@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-// import { Link } from "react-router-dom"
 import "../../Design/job/job.css"
 
 export default class Job extends Component {
@@ -30,14 +29,11 @@ export default class Job extends Component {
 
 
     checkApply = () => {
-        // console.log(this.state.user)
         if (this.state.user !== null) {
             return (
                 this.state.job.applied.map(applier => {
-                    // console.log(applier)
                     if (applier === localStorage.getItem("user_id")) {
                         this.setState({ apply: "disabled" })
-                        // console.log(applier)
                     }
                 })
             )
@@ -64,21 +60,11 @@ export default class Job extends Component {
 
     render() {
         const { job, apply } = this.state
-        // console.log(this.state.apply)
         return (
             <div className="job">
                 {
                     job !== null ?
                         <div className="job-content">
-                            {/* {
-                                user !== null ?
-                                    <h3 className="mt-5 mb-4">
-                                        <Link to="profile"
-                                            onClick={() => localStorage.setItem("profile", user._id)}
-                                        > {user.name} </Link>
-                                    </h3>
-                                    : null
-                            } */}
                             <table className="job-table">
                                 <tbody>
 
@@ -140,7 +126,7 @@ export default class Job extends Component {
                                         :
                                         <>
                                             <br />
-                                            <h4> You are job owner, check your dashboard to show appliers</h4>
+                                            <h4> You are job owner, check your dashboard to show applicants</h4>
                                         </>
                                     :
                                     <>

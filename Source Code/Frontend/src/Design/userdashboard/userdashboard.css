@@ -1,0 +1,356 @@
+.dash{
+    width: 101%;
+    /* background-image: url("../../images/13.jpg"); */
+    background-image: linear-gradient(to right, white , rgb(230, 230, 230));
+    background-size: cover;
+    padding: 50px 20px 0px 20px;
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+
+
+/*---------------------------------------------*/
+
+/*---------------------------------------------*/
+.dashinput {
+	outline: none;
+	border: none;
+}
+
+.dashinput[type="number"] {
+    -moz-appearance: textfield;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.dashinput[type="number"]::-webkit-outer-spin-button,
+.dashinput[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.dashtextarea {
+  outline: none;
+  border: none;
+}
+
+.dashtextarea:focus, .dashinput:focus {
+  border-color: transparent !important;
+}
+
+.dashinput:focus::-webkit-input-placeholder { color:transparent; }
+.dashinput:focus:-moz-placeholder { color:transparent; }
+.dashinput:focus::-moz-placeholder { color:transparent; }
+.dashinput:focus:-ms-input-placeholder { color:transparent; }
+
+.dashtextarea:focus::-webkit-input-placeholder { color:transparent; }
+.dashtextarea:focus:-moz-placeholder { color:transparent; }
+.dashtextarea:focus::-moz-placeholder { color:transparent; }
+.dashtextarea:focus:-ms-input-placeholder { color:transparent; }
+
+.dashinput::-webkit-input-placeholder {color: #999999;}
+.dashinput:-moz-placeholder {color: #999999;}
+.dashinput::-moz-placeholder {color: #999999;}
+.dashinput:-ms-input-placeholder {color: #999999;}
+
+.dashtextarea::-webkit-input-placeholder {color: #999999;}
+.dashtextarea:-moz-placeholder {color: #999999;}
+.dashtextarea::-moz-placeholder {color: #999999;}
+.dashtextarea:-ms-input-placeholder {color: #999999;}
+
+/*---------------------------------------------*/
+.dashbutton {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+.dashbutton:hover {
+	cursor: pointer;
+}
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Contact ]*/
+
+.dashcontainer-contact100 {
+  margin-top: -50px;
+  /* width: 30%;   */
+  min-height: 91.5vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+
+  /* background-image: url("../../images/7.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.contact100-map {
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.dashwrap-contact100 {
+  /* width: 667px; */
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+/*==================================================================
+[ Title form ]*/
+.dashcontact100-form-title {
+  width: 100%;
+  height: 120px;
+  position: relative;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+
+  /* background-image: url("../../images/4.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  padding: 55px 15px 64px 15px;
+}
+
+.dashcontact100-form-title-1 {
+  margin-top: -20px;
+  font-family: Poppins-Bold;
+  font-size: 40px;
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 7px;
+}
+
+.dashcontact100-form-title-2 {
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+.dashcontact100-form-title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(54,84,99,0.7);
+}
+
+
+/*==================================================================
+[ Form ]*/
+
+.dashcontact100-form {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 43px 30px 57px 30px;
+}
+
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.dashwrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #b2b2b2;
+  margin-bottom: 10px;
+}
+
+
+/*---------------------------------------------*/
+.dashinput100 {
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.2;
+
+  display: block;
+  width: 100%;
+  background: transparent;
+  padding: 0 5px;
+}
+
+
+/*---------------------------------------------*/
+.dashinput.dashinput100 {
+  height: 45px;
+}
+
+
+.dashtextarea.dashinput100 {
+  min-height: 115px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+}
+
+
+.dashinput100:focus {
+  width: 100%;
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.dashcontainer-contact100-form-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 8px;
+}
+
+.dashcontact100-form-btn {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 160px;
+  height: 50px;
+  background-color: #57b846;
+  border-radius: 25px;
+
+  font-family: Poppins-Regular;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.dashcontact100-form-btn i {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.dashcontact100-form-btn:hover {
+  background-color: #333333;
+}
+
+.dashcontact100-form-btn:hover i {
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  transform: translateX(10px);
+}
+
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 576px) {
+  .dashcontact100-form {
+    padding: 43px 15px 57px 117px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashcontact100-form {
+    padding: 43px 15px 57px 15px;
+  }
+}
+
+
+/*------------------------------------------------------------------
+[ Alert validate ]*/
+
+.dashvalidate-input {
+  position: relative;
+}
+
+
+.time{
+  /* margin-left: 70px; */
+  width: 226px;
+}
+
+.dash-msg{
+    margin-top: -40px;
+  /* text-align: center; */
+    font-size: 20px;
+    color: green;
+    margin-left: 180px ;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .dash-read {
+    border: none;
+    /* background: #404040; */
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display:inline-block;
+    transition: all 0.3s ease 0s;
+    }
+  
+    .dash-read:hover {
+      color: #404040 !important;
+      /* font-weight: 700 !important; */
+      /* letter-spacing: 3px; */
+      background: none;
+      -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+      transition: all 0.3s ease 0s;
+      } 

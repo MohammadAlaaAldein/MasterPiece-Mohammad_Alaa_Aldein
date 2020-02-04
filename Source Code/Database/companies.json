@@ -1,0 +1,19 @@
+{ 
+    "_id" : ObjectId("5e37852caa0e2e43085e60fc"), 
+    "products" : [
+        "Amman", 
+        " Jordan", 
+        " Balqaa", 
+        " Aaqaba"
+    ], 
+    "name" : "Orange", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "IT", 
+    "address" : "Mohammad Ali Sau'd", 
+    "time" : "24/7", 
+    "website" : "www.orange.com", 
+    "email" : "mohammad-aladin@hotmail.com", 
+    "phone" : NumberInt(791046139), 
+    "info" : "HI", 
+    "__v" : NumberInt(0)
+}

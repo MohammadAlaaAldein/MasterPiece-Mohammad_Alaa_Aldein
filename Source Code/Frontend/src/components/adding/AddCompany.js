@@ -24,7 +24,6 @@ export default class AddCompany extends Component {
         let company = { name, user_id, field, products, address, time, website, email, phone, info }
         axios.post("http://localhost:9000/addCompany", company)
             .then(res => {
-                console.log("RES DATA : ", res.data)
             })
         this.setState({ msg: "Company added" })
     }
@@ -33,24 +32,6 @@ export default class AddCompany extends Component {
     render() {
         const { msg } = this.state
         return (
-            // <div>
-            //     <form onSubmit={this.addCompany} >
-            //         <input type="text" name="name" placeholder="Company Name" /><br />
-            //         <select defaultValue="Defult" name="field">
-            //             <option disabled>Job Field</option>
-            //             <option value="IT">IT</option>
-            //             <option value="Development">Development</option>
-            //             <option value="Medicine">Medicine</option>
-            //             <option value="Engineering">Engineering</option>
-            //             <option value="Accounting">Accounting</option>
-            //         </select><br />
-            //         <textarea type="text" name="products" placeholder="Company Products" ></textarea><br />
-            //         <input type="text" name="address" placeholder="Company Address" /><br />
-            //         <input type="text" name="time" placeholder="Company Work Time" /><br />
-            //         <textarea name="info" placeholder="More info about Company" ></textarea><br />
-            //         <input type="submit" value="Add Job Application" />
-            //     </form>
-            // </div>
 
             <div className="ajcontainer-contact100 acbg" >
 
@@ -70,7 +51,6 @@ export default class AddCompany extends Component {
                             <div className="col ml-4 ajwrap-input100 ajvalidate-input" >
                                 <input className="ajinput ajinput100" type="text" name="address" placeholder="Address" />
                             </div>
-
                         </div>
 
                         <div className="row">

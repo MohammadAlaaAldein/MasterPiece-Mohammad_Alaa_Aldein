@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import axios from "axios"
-// import { Link } from "react-router-dom"
 
 export default class Company extends Component {
 
@@ -16,7 +15,6 @@ export default class Company extends Component {
         let _id = localStorage.getItem("company")
         axios.post("http://localhost:9000/getCompany", { _id })
             .then(res => {
-                // console.log(res.data)
                 let company = res.data
                 this.setState({ company })
             })

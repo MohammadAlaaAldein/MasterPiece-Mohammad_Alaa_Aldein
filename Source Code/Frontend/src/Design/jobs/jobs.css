@@ -30,12 +30,14 @@
   /* } */
 
   .jobs{
-      /* background-image: url("../../images/5.jpg"); */
+      margin-top: -50px;
+    background-image: linear-gradient(to right, white , rgb(230, 230, 230));
+    padding-top: 80px;
+      /* background-image: url("../../images/13.jpg"); */
       /* height: 91.5vh; */
       /* background-repeat: no-repeat; */
       /* background-size: cover; */
       /* margin-top: -45px; */
-      
     }
     .jobs-body{
         /* background: #c4d3f6; */
