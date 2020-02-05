@@ -1,7 +1,58 @@
 { 
     "_id" : ObjectId("5e3162a73eddca03a499ecbe"), 
     "applied" : [
-        "5e3750e678d62549dcf0a19c"
+        {
+            "_id" : "5e39c620ebc82644684b5f97", 
+            "name" : "Alaaeddin Ramadan", 
+            "email" : "alaeddin@gmail.com", 
+            "password" : "12345678", 
+            "phone" : null, 
+            "field" : null, 
+            "address" : null, 
+            "experience" : null, 
+            "info" : null, 
+            "role" : "user", 
+            "__v" : NumberInt(0)
+        }, 
+        {
+            "_id" : "5e39c697ebc82644684b5f99", 
+            "name" : "Rahma Sandoqa", 
+            "email" : "rahma.sandoqa@gmail.com", 
+            "password" : "12345678", 
+            "phone" : NumberInt(777519970), 
+            "field" : "Development", 
+            "address" : "Bayader, Amman", 
+            "experience" : NumberInt(1), 
+            "info" : "Web developer", 
+            "role" : "user", 
+            "__v" : NumberInt(0)
+        }, 
+        {
+            "_id" : "5e39c787ebc82644684b5f9b", 
+            "name" : "Hani Abo Alinain", 
+            "email" : "hani.aboalinain@gmail.com", 
+            "password" : "12345678", 
+            "phone" : NumberInt(777519978), 
+            "field" : "Development", 
+            "address" : "Amman, Jordan", 
+            "experience" : NumberInt(1), 
+            "info" : "Web developer have good experience in development\n", 
+            "role" : "user", 
+            "__v" : NumberInt(0)
+        }, 
+        {
+            "_id" : "5e39c507ebc82644684b5f93", 
+            "name" : "Ahmad Ramadan", 
+            "email" : "ahmad.ramadan@gmail.com", 
+            "password" : "12345678", 
+            "phone" : NumberInt(799401394), 
+            "field" : "Others", 
+            "address" : "Amman, Khalda", 
+            "experience" : NumberInt(15), 
+            "info" : "Jordanian butcher have large experience in foods, meat and other.\n", 
+            "role" : "user", 
+            "__v" : NumberInt(0)
+        }
     ], 
     "name" : "Lead Trainer", 
     "user_id" : "5e068352bcbea5359ce8333b", 
@@ -17,7 +68,11 @@
 { 
     "_id" : ObjectId("5e31692d3eddca03a499ecc0"), 
     "applied" : [
-
+        "5e39c507ebc82644684b5f93", 
+        "5e39c41bebc82644684b5f91", 
+        "5e39c620ebc82644684b5f97", 
+        "5e39c787ebc82644684b5f9b", 
+        "5e39cdbcebc82644684b5f9c"
     ], 
     "name" : "Senior Operating Systems Engineer", 
     "user_id" : "5e068352bcbea5359ce8333b", 
@@ -33,7 +88,45 @@
 { 
     "_id" : ObjectId("5e316b2e3eddca03a499ecc1"), 
     "applied" : [
-        "5e068352bcbea5359ce8333b"
+        {
+            "_id" : "5e39c507ebc82644684b5f93", 
+            "name" : "Ahmad Ramadan", 
+            "email" : "ahmad.ramadan@gmail.com", 
+            "password" : "12345678", 
+            "phone" : NumberInt(799401394), 
+            "field" : "Others", 
+            "address" : "Amman, Khalda", 
+            "experience" : NumberInt(15), 
+            "info" : "Jordanian butcher have large experience in foods, meat and other.\n", 
+            "role" : "user", 
+            "__v" : NumberInt(0)
+        }, 
+        {
+            "_id" : "5e39cdbcebc82644684b5f9c", 
+            "name" : "Ammar Ziad", 
+            "email" : "ammar.ziad@gmail.com", 
+            "password" : "12345678", 
+            "phone" : NumberInt(777519977), 
+            "field" : "Development", 
+            "address" : "Zarqa'a, Joedan", 
+            "experience" : NumberInt(1), 
+            "info" : "Junior web developer", 
+            "role" : "user", 
+            "__v" : NumberInt(0)
+        }, 
+        {
+            "_id" : "5e39c41bebc82644684b5f91", 
+            "name" : "Mohamamd Moneer", 
+            "email" : "mohammad.moneer@gmail.com", 
+            "password" : "12345678", 
+            "phone" : NumberInt(795103758), 
+            "field" : "Business", 
+            "address" : "Amman, Jordan", 
+            "experience" : NumberInt(12), 
+            "info" : "To organize your old and accumulated accounts from accounting, sales tax, income tax, and preparing bank reconciliations in an efficient computerized way .. In addition to a set of administrative forms and without additional costs, look for free and partial work for companies and stores", 
+            "role" : "user", 
+            "__v" : NumberInt(0)
+        }
     ], 
     "name" : "Security Officer", 
     "user_id" : "5e2078a62171212ad8f82ce4", 
@@ -49,7 +142,45 @@
 { 
     "_id" : ObjectId("5e316ba73eddca03a499ecc2"), 
     "applied" : [
-
+        {
+            "_id" : "5e39c41bebc82644684b5f91", 
+            "name" : "Mohamamd Moneer", 
+            "email" : "mohammad.moneer@gmail.com", 
+            "password" : "12345678", 
+            "phone" : NumberInt(795103758), 
+            "field" : "Business", 
+            "address" : "Amman, Jordan", 
+            "experience" : NumberInt(12), 
+            "info" : "To organize your old and accumulated accounts from accounting, sales tax, income tax, and preparing bank reconciliations in an efficient computerized way .. In addition to a set of administrative forms and without additional costs, look for free and partial work for companies and stores", 
+            "role" : "user", 
+            "__v" : NumberInt(0)
+        }, 
+        {
+            "_id" : "5e39c620ebc82644684b5f97", 
+            "name" : "Alaaeddin Ramadan", 
+            "email" : "alaeddin@gmail.com", 
+            "password" : "12345678", 
+            "phone" : null, 
+            "field" : null, 
+            "address" : null, 
+            "experience" : null, 
+            "info" : null, 
+            "role" : "user", 
+            "__v" : NumberInt(0)
+        }, 
+        {
+            "_id" : "5e39cdbcebc82644684b5f9c", 
+            "name" : "Ammar Ziad", 
+            "email" : "ammar.ziad@gmail.com", 
+            "password" : "12345678", 
+            "phone" : NumberInt(777519977), 
+            "field" : "Development", 
+            "address" : "Zarqa'a, Joedan", 
+            "experience" : NumberInt(1), 
+            "info" : "Junior web developer", 
+            "role" : "user", 
+            "__v" : NumberInt(0)
+        }
     ], 
     "name" : "Branch Manager", 
     "user_id" : "5e2078a62171212ad8f82ce4", 
@@ -65,7 +196,19 @@
 { 
     "_id" : ObjectId("5e316ca73eddca03a499ecc3"), 
     "applied" : [
-        "5e068352bcbea5359ce8333b"
+        {
+            "_id" : "5e39cdbcebc82644684b5f9c", 
+            "name" : "Ammar Ziad", 
+            "email" : "ammar.ziad@gmail.com", 
+            "password" : "12345678", 
+            "phone" : NumberInt(777519977), 
+            "field" : "Development", 
+            "address" : "Zarqa'a, Joedan", 
+            "experience" : NumberInt(1), 
+            "info" : "Junior web developer", 
+            "role" : "user", 
+            "__v" : NumberInt(0)
+        }
     ], 
     "name" : "Mathematics Teacher", 
     "user_id" : "5e2078a62171212ad8f82ce4", 
@@ -81,7 +224,8 @@
 { 
     "_id" : ObjectId("5e316d113eddca03a499ecc4"), 
     "applied" : [
-        "5e068352bcbea5359ce8333b"
+        "5e39c697ebc82644684b5f99", 
+        "5e39c787ebc82644684b5f9b"
     ], 
     "name" : "Web Designer", 
     "user_id" : "5e2078a62171212ad8f82ce4", 
@@ -97,7 +241,7 @@
 { 
     "_id" : ObjectId("5e316e503eddca03a499ecc6"), 
     "applied" : [
-
+        "5e39cdbcebc82644684b5f9c"
     ], 
     "name" : "NPO (Pharmaceuticals)", 
     "user_id" : "5e2078a62171212ad8f82ce4", 
@@ -113,7 +257,7 @@
 { 
     "_id" : ObjectId("5e3172243eddca03a499ecc8"), 
     "applied" : [
-
+        "5e39c507ebc82644684b5f93"
     ], 
     "name" : "Regional Medical Advisor, Jordan", 
     "user_id" : "5e2078a62171212ad8f82ce4", 
@@ -129,7 +273,8 @@
 { 
     "_id" : ObjectId("5e3172993eddca03a499ecc9"), 
     "applied" : [
-
+        "5e39c507ebc82644684b5f93", 
+        "5e39c41bebc82644684b5f91"
     ], 
     "name" : "Officer - Production", 
     "user_id" : "5e2078a62171212ad8f82ce4", 
@@ -145,7 +290,19 @@
 { 
     "_id" : ObjectId("5e31781d3eddca03a499ecca"), 
     "applied" : [
-
+        {
+            "_id" : "5e39c507ebc82644684b5f93", 
+            "name" : "Ahmad Ramadan", 
+            "email" : "ahmad.ramadan@gmail.com", 
+            "password" : "12345678", 
+            "phone" : NumberInt(799401394), 
+            "field" : "Others", 
+            "address" : "Amman, Khalda", 
+            "experience" : NumberInt(15), 
+            "info" : "Jordanian butcher have large experience in foods, meat and other.\n", 
+            "role" : "user", 
+            "__v" : NumberInt(0)
+        }
     ], 
     "name" : "Accountant", 
     "user_id" : "5e2078a62171212ad8f82ce4", 
@@ -223,22 +380,6 @@
     "__v" : NumberInt(0)
 }
 { 
-    "_id" : ObjectId("5e317e2e3eddca03a499eccf"), 
-    "applied" : [
-
-    ], 
-    "name" : "Education Program Officer (Coach)", 
-    "user_id" : "5e068352bcbea5359ce8333b", 
-    "field" : "Education", 
-    "experience" : null, 
-    "salary" : null, 
-    "address" : "Amman, Jordan", 
-    "time" : "Full Time", 
-    "company" : "Research Triangle Institute", 
-    "info" : "BA or Master’s Degree in Early grades education or PhD in Education.\n4 years of experience in either in coaching and training early grades teachers.\nKnowledge of Jordanian and/or regional public school context.\nFluency in Arabic language is required, English language is also preferred.\nEvidence of strong writing skills in Arabic and English.\nFor South region, those who lives in Ma’an/Shobak or Perta is preferred. ", 
-    "__v" : NumberInt(0)
-}
-{ 
     "_id" : ObjectId("5e317f003eddca03a499ecd0"), 
     "applied" : [
 
@@ -273,7 +414,7 @@
 { 
     "_id" : ObjectId("5e317fc63eddca03a499ecd2"), 
     "applied" : [
-        "5e068352bcbea5359ce8333b"
+
     ], 
     "name" : "Civil Engineer", 
     "user_id" : "5e2078a62171212ad8f82ce4", 
@@ -321,7 +462,7 @@
 { 
     "_id" : ObjectId("5e3180a43eddca03a499ecd5"), 
     "applied" : [
-
+        "5e39c697ebc82644684b5f99"
     ], 
     "name" : "Java Developer", 
     "user_id" : "5e2078a62171212ad8f82ce4", 
@@ -348,5 +489,170 @@
     "time" : "Contract", 
     "company" : "InterContinental Hotels Group", 
     "info" : "A clear passion for people, service and hospitality.\nExcited by a challenging accelerated programme pathway.\nStrong desire to learn and grow fast.\nExceptional leadership potential and skilled in building relationships.\nConfident communicator, proactive and thrive on a challenge.\nInterested in how a hotel works from planning a guest experience to understanding revenue drivers.\nFluent in English language (written and spoken) as well as (local language if required in country).\nYou’ll have the right to work – residency permit or passport.\nA hospitality degree OR a degree plus six months hospitality experience (supervisory preferred) OR 12 months hospitality experience (supervisory preferred).\n", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39a7f4ebc82644684b5f6d"), 
+    "applied" : [
+
+    ], 
+    "name" : "Clinical Nurse", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Health", 
+    "experience" : NumberInt(1), 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Witfield", 
+    "info" : "The nurse is responsible for patient preparation, as well as, assisting the physician with medical procedures. Also performs various diagnostic tests, administration of medications, and patient education in the clinic. Maintains equipment and acts as a liaison between the physician and all outside agencies to include hospitals, pharmacies, laboratories and other physician's offices, as well as, with the patient. The nurse supports other medical staff members to maintain patient flow. Also maintains accurate and complete documentation.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39aa55ebc82644684b5f6e"), 
+    "applied" : [
+
+    ], 
+    "name" : "Education Program Officer (Coach)", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Education", 
+    "experience" : NumberInt(2), 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Research Triangle Institute", 
+    "info" : "BA or Master’s Degree in Early grades education or PhD in Education. 4 years of experience in either in coaching and training early grades teachers. Knowledge of Jordanian and/or regional public school context. Fluency in Arabic language is required, English language is also preferred. Evidence of strong writing skills in Arabic and English. For South region, those who lives in Ma’an/Shobak or Perta is preferred.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39ad70ebc82644684b5f78"), 
+    "applied" : [
+
+    ], 
+    "name" : "Civil Engineer", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Engineering", 
+    "experience" : NumberInt(5), 
+    "address" : "Amman, Jordan", 
+    "time" : "Contract", 
+    "company" : "Al Ateral Contracting Company", 
+    "info" : "Al-Atar Investments Group announces the need for a civil engineer with an experience of 7-10 years for the purposes of establishing a contracting company", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39adc8ebc82644684b5f79"), 
+    "applied" : [
+
+    ], 
+    "name" : "Field Coordinator", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Managment", 
+    "experience" : NumberInt(4), 
+    "address" : "Jordan", 
+    "time" : "Full Time", 
+    "company" : "World Vision International - Jordan", 
+    "info" : "Join and be part of a global relief, development and advocacy NGO, dedicated to work with children, families & communities to overcome poverty and injustice. World Vision International was established in 1950 & operates in nearly 100 countries worldwide.\nWorld Vision is committed to the protection of children and we do not employ people whose background is not suitable for working with children. All employment is conditioned upon the successful completion of all applicable background checks, including criminal record checks where possible.\n\nPosition: Field Coordinator\n\nIf you are Jordanian and meet our requirements, please submit your resume with a covering letter via below website, only applications submitted via our website are accepted\n\nhttps://careers.wvi.org/jobs/jordan/food-security-and-livelihood/field-coordinator/14331", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39ae1aebc82644684b5f7c"), 
+    "applied" : [
+
+    ], 
+    "name" : "Quality Assurance Manager", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Development", 
+    "experience" : NumberInt(3), 
+    "address" : "Jordan", 
+    "time" : "Full Time", 
+    "company" : "Amazon", 
+    "info" : "Basic Qualifications\n• Bachelor's or Master's in CS or related field with over 7 years of experience software quality assurance and at least 2+ years in a QA Manager/lead role\n• Strong QA background with experience in identifying and reviewing test plans, test cases and testing results.\n• Knowledge of scripting languages such as SQL, Perl, Python, XML or Ruby\n• Proficient in Object oriented programming and ability to write code in C, C++ or Java\n• Highly effective at working with geographically distributed QA, business and development teams.\n• Strong people management skills with a proven track record in hiring, developing and retaining high performing QA team consisting of QAEs and SDETs.\n• Strong project management skills, preferably with experience in an agile development environment.\n• Proven track record in identifying and implementing automated testing tools and frameworks.\n• Excellent quality and release management skills.\n• Established track record for delivering high quality products.\n• Demonstrated ability to define and present metrics that help illuminate our quality and quality goals.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39ae5aebc82644684b5f7d"), 
+    "applied" : [
+
+    ], 
+    "name" : "Junior IT Support", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Development", 
+    "experience" : NumberInt(1), 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Confidential Job", 
+    "info" : "\nJOB DESCRIPTION\n\nInstalling and configuring computer hardware, software, systems, networks, printers and scanners\nMonitoring and maintaining computer systems and networks\nResponding in a timely manner to service issues and requests\nProviding technical support across the company\nSetting up accounts for new users\nRepairing and replacing equipment as necessary\nTesting new technology\nMicrosoft Windows Server installation, network configuration\nProtects organizations value by keeping information confidential\nProvide support and communication via email, phone, and in person\nOther duties as assigned to meet business need", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39aecfebc82644684b5f7e"), 
+    "applied" : [
+        "5e39c620ebc82644684b5f97"
+    ], 
+    "name" : "Digital Marketing Specialist", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Business", 
+    "experience" : NumberInt(7), 
+    "address" : "Jordan", 
+    "time" : "Full Time", 
+    "company" : "Witfield", 
+    "info" : "The Digital Marketing Specialist’s role is to design, create, and deliver marketing programs to support expansion and growth of the company. This role requires an in depth knowledge in Health Care services and market goals. Proficiency in graphics, web advertising, social media and web development is a must. Familiarity with a wide range of field practices, concepts, and procedures. Marketing specialists rely on judgment in planning and experience to accomplish identified goals.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39aeebebc82644684b5f7f"), 
+    "applied" : [
+
+    ], 
+    "name" : "Customer Service Advisor - English Speakers", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Business", 
+    "experience" : NumberInt(3), 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "CRYSTEL", 
+    "info" : "Job Description\n\nResponsible for handling customers’ interactions\nResponsible for communicating with customers’ via multiple channels\nAnswer all incoming requests and address customers’ problems in a timely manner\nLog all necessary interaction details as instructed\nRe-direct requests as per the set processes and take full information as required\nFollow company procedures when handling incoming and outgoing interactions with the ability to resolve and close issues\nEscalate issues or unresolved queries to the Team Leader or Supervisor as directed", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39af23ebc82644684b5f80"), 
+    "applied" : [
+        "5e39c697ebc82644684b5f99"
+    ], 
+    "name" : "DevOps Engineer", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Development", 
+    "experience" : null, 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Jawaker", 
+    "info" : "We are looking for smart, passionate and motivated DevOps Engineer to join our growing team at Jawaker. Regardless of how many years of experience you have, we are mainly looking for people with the right attitude to learn rather than people with the knowledge.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39af7bebc82644684b5f81"), 
+    "applied" : [
+
+    ], 
+    "name" : "User Acquisition Specialist", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Business", 
+    "experience" : NumberInt(6), 
+    "address" : "Jordan", 
+    "time" : "Full Time", 
+    "company" : "Jawaker", 
+    "info" : "Job Description\n\nThe User Acquisition Specialist (UAS) will help drive user growth and maximize advertising Return on Investment (RoI). The UAS will design, implement and track acquisition campaigns to drive new players to our products on ad networks, social media platforms, and various other channels.\n\nThe UAS will collaborate with remote creative and marketing people to optimize creativity, messages, and budgets and develop compelling advertising campaigns. The UAS will also develop A/B testing programs to maximize acquisition efforts and return.\n\nThe UAS will be responsible for collecting, analyzing, and interpreting data across all UA operations to support the overall marketing strategy and work with the management team to develop insights, advice on the implementation of analytic solutions and analyze data to optimize campaigns that meet volume and RoI targets.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39afc8ebc82644684b5f82"), 
+    "applied" : [
+
+    ], 
+    "name" : "Technical Support", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "IT", 
+    "experience" : NumberInt(2), 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "company" : "Dallah Group", 
+    "info" : "Technical Support Responsibilities:\n\nKnowledge of backup software’s ( Acronis, Veeam)\nKnowledge of fingerprint machines and collecting data from branches.\nKnowledge in DVR devices and cams.\nKnowledge in Networking (Routers, Switches, Firewalls, NAS`s, Network printers) .\nKnowledge of Mail Servers ( CPanel, Plesk, Microsoft exchange, Google ).\nKnowledge in purchasing devices and systems in the market\nKnowledge in Programming Languages is a Bonus skill.\nKnowledge in connecting branches computers and systems.", 
     "__v" : NumberInt(0)
 }

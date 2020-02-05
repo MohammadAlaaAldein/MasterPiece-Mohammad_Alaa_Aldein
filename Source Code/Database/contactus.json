@@ -3,54 +3,6 @@
     "name" : "Mohamamd Alaa Aldein", 
     "email" : "mohammad.aladin996@gmail.com", 
     "message" : "Its a nice work, nice site and offer good things, Thanks and good luck", 
-    "status" : "readed", 
-    "__v" : NumberInt(0)
-}
-{ 
-    "_id" : ObjectId("5e29ade64e835a1a844ed206"), 
-    "name" : "Mohamamd Alaa Aldein", 
-    "email" : "mohammad.aladin996@gmail.com", 
-    "message" : "", 
-    "status" : "readed", 
-    "__v" : NumberInt(0)
-}
-{ 
-    "_id" : ObjectId("5e361e633b1a0a103c6096df"), 
-    "name" : "Mohamamd Alaa Aldein", 
-    "email" : "mohammad.aladin996@gmail.com", 
-    "message" : "", 
-    "status" : "readed", 
-    "__v" : NumberInt(0)
-}
-{ 
-    "_id" : ObjectId("5e361e633b1a0a103c6096e1"), 
-    "name" : "Mohamamd Alaa Aldein", 
-    "email" : "mohammad.aladin996@gmail.com", 
-    "message" : "", 
-    "status" : "readed", 
-    "__v" : NumberInt(0)
-}
-{ 
-    "_id" : ObjectId("5e361e633b1a0a103c6096e2"), 
-    "name" : "Mohamamd Alaa Aldein", 
-    "email" : "mohammad.aladin996@gmail.com", 
-    "message" : "", 
-    "status" : "readed", 
-    "__v" : NumberInt(0)
-}
-{ 
-    "_id" : ObjectId("5e361e643b1a0a103c6096e4"), 
-    "name" : "Mohamamd Alaa Aldein", 
-    "email" : "mohammad.aladin996@gmail.com", 
-    "message" : "", 
-    "status" : "unreaded", 
-    "__v" : NumberInt(0)
-}
-{ 
-    "_id" : ObjectId("5e361eeb3b1a0a103c6096e6"), 
-    "name" : "Mohamamd Alaa Aldein", 
-    "email" : "mohammad.aladin996@gmail.com", 
-    "message" : "", 
     "status" : "unreaded", 
     "__v" : NumberInt(0)
 }

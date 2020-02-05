@@ -1,55 +1,88 @@
 { 
-    "_id" : ObjectId("5e35de49d7f9cb403425b173"), 
-    "name" : "Full Stack Developer", 
-    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "_id" : ObjectId("5e39bfcbebc82644684b5f8a"), 
+    "name" : "Web Developer", 
+    "user_id" : "5e068352bcbea5359ce8333b", 
     "field" : "Development", 
-    "experience" : NumberInt(3), 
+    "experience" : NumberInt(1), 
     "address" : "Amman, Jordan", 
-    "time" : "Full Time", 
-    "info" : "HIIIIIIIII", 
+    "time" : "Any", 
+    "info" : "Junior Full Stack developer, have 1 year experience at development.\nHave an excellent knowledge at Javascript and React ( MERN Stack ), and a good experience at PHP, Laravel, Python and CMS. \nHave a passion to learn and self-development ", 
     "__v" : NumberInt(0)
 }
 { 
-    "_id" : ObjectId("5e3603183b1a0a103c609679"), 
-    "name" : "Pharmacy", 
-    "user_id" : "5e2078a62171212ad8f82ce4", 
-    "field" : "Health", 
-    "experience" : NumberInt(12), 
+    "_id" : ObjectId("5e39c0feebc82644684b5f8c"), 
+    "name" : "Lawyer", 
+    "user_id" : "5e39c081ebc82644684b5f8b", 
+    "field" : "Others", 
+    "experience" : NumberInt(5), 
     "address" : "Jordan", 
     "time" : "Any", 
-    "info" : "HHHHHHIIIIIIIIIIIIIIIII", 
+    "info" : "For all legal and legal cases\nCases of all Omani regular courts and speedy collection of claims, bond and checks cases, and other cases of division of funds and dissolution of partnership\nCertified legal advisor to all regular and Sharia courts", 
     "__v" : NumberInt(0)
 }
 { 
-    "_id" : ObjectId("5e3767e878d62549dcf0a19e"), 
-    "name" : "Full Stack Developer", 
-    "user_id" : "5e068352bcbea5359ce8333b", 
-    "field" : "Development", 
-    "experience" : NumberInt(10), 
-    "address" : "Any Where", 
-    "time" : "Full Time", 
-    "info" : "Im Full Stack web developer", 
+    "_id" : ObjectId("5e39c22cebc82644684b5f8e"), 
+    "name" : "Nurse", 
+    "user_id" : "5e39c1c2ebc82644684b5f8d", 
+    "field" : "Health", 
+    "experience" : NumberInt(7), 
+    "address" : "Amman, Jordan", 
+    "time" : "Any", 
+    "info" : "I am a nurse with good nursing skills, and I can accompany my patients, whether in the hospital or at home, for anyone who needs an escort.", 
     "__v" : NumberInt(0)
 }
 { 
-    "_id" : ObjectId("5e3767e978d62549dcf0a19f"), 
+    "_id" : ObjectId("5e39c3c4ebc82644684b5f90"), 
     "name" : "Full Stack Developer", 
-    "user_id" : "5e068352bcbea5359ce8333b", 
+    "user_id" : "5e39c36febc82644684b5f8f", 
     "field" : "Development", 
-    "experience" : NumberInt(10), 
-    "address" : "Any Where", 
-    "time" : "Full Time", 
-    "info" : "Im Full Stack web developer", 
+    "experience" : NumberInt(1), 
+    "address" : "Amman, Jordan", 
+    "time" : "Any", 
+    "info" : "Junior Full Stack developer, have 2 years experience at development. Have an excellent knowledge at Laravel and React ( MERN Stack ), and a good experience at PHP, Python and CMS. Have a passion to learn and self-development", 
     "__v" : NumberInt(0)
 }
 { 
-    "_id" : ObjectId("5e3767f278d62549dcf0a1a0"), 
-    "name" : "Full Stack Developer", 
-    "user_id" : "5e068352bcbea5359ce8333b", 
-    "field" : "Development", 
-    "experience" : NumberInt(10), 
-    "address" : "Any Where", 
+    "_id" : ObjectId("5e39c468ebc82644684b5f92"), 
+    "name" : "Director and financial advisor", 
+    "user_id" : "5e39c41bebc82644684b5f91", 
+    "field" : "Business", 
+    "experience" : NumberInt(12), 
+    "address" : "Jordan", 
     "time" : "Full Time", 
-    "info" : "Im Full Stack web developer", 
+    "info" : "To organize your old and accumulated accounts from accounting, sales tax, income tax, and preparing bank reconciliations in an efficient computerized way .. In addition to a set of administrative forms and without additional costs, look for free and partial work for companies and stores", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39c54aebc82644684b5f95"), 
+    "name" : "Butcher", 
+    "user_id" : "5e39c507ebc82644684b5f93", 
+    "field" : "Others", 
+    "experience" : NumberInt(15), 
+    "address" : "Amman, Jordan", 
+    "time" : "Full Time", 
+    "info" : "Jordanian butcher have large experience in foods, meat and other.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39c660ebc82644684b5f98"), 
+    "name" : "Butcher", 
+    "user_id" : "5e39c620ebc82644684b5f97", 
+    "field" : "Others", 
+    "experience" : NumberInt(7), 
+    "address" : "Amman, Jordan", 
+    "time" : "Part Time", 
+    "info" : "Jordanian butcher have large experience in foods, meat and other.\n", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39c6f6ebc82644684b5f9a"), 
+    "name" : "Web Developer", 
+    "user_id" : "5e39c697ebc82644684b5f99", 
+    "field" : "Development", 
+    "experience" : NumberInt(1), 
+    "address" : "Amman, Jordan", 
+    "time" : "Any", 
+    "info" : "Web developer have a passion to learn an devloped ", 
     "__v" : NumberInt(0)
 }

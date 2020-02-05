@@ -1,19 +1,290 @@
 { 
-    "_id" : ObjectId("5e37852caa0e2e43085e60fc"), 
+    "_id" : ObjectId("5e39d339ebc82644684b5f9d"), 
     "products" : [
-        "Amman", 
-        " Jordan", 
-        " Balqaa", 
-        " Aaqaba"
+        "Telecom", 
+        " Internet", 
+        " Orange Money", 
+        " others"
     ], 
     "name" : "Orange", 
     "user_id" : "5e2078a62171212ad8f82ce4", 
     "field" : "IT", 
-    "address" : "Mohammad Ali Sau'd", 
+    "address" : "Jordan", 
     "time" : "24/7", 
-    "website" : "www.orange.com", 
-    "email" : "mohammad-aladin@hotmail.com", 
-    "phone" : NumberInt(791046139), 
-    "info" : "HI", 
+    "website" : "www.orange.jo", 
+    "email" : "info@orange.jo", 
+    "phone" : NumberInt(777700177), 
+    "info" : "Orange Jordan is one of the 29 companies affiliated with Orange Group, the leading telecom operator, and one of the groups included in the list of the top ten telecom operators in the world.\n\n\n\nAs it is considered part of a global brand that operates in a local spirit, Orange Jordan employs its experiences gained from the parent group, in order to contribute to creating, facilitating and promoting digital transformation in the Kingdom, which will create more opportunities for social and economic progress for its children. Orange Jordan has a growing customer base of about 5 million subscribers, serving them through a network of specialized employees who number approximately 1,800 employees, and its exhibitions exceeding 55.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39d407ebc82644684b5f9e"), 
+    "products" : [
+        "Construction", 
+        " Contracting"
+    ], 
+    "name" : "BAM International branch office Jordan", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Engineering", 
+    "address" : "Aqaba, Jordan", 
+    "time" : "8:00 - 5:00", 
+    "website" : "www.baminternational.com", 
+    "email" : "middle-east@baminternational.com", 
+    "phone" : NumberInt(32062117), 
+    "info" : "BAM creates sustainable built environments across the world that enhance people’s lives and create maximum value for our stakeholders by combining a diversity of people that capitalise on state-of-the-art knowledge, resources and digital technologies to provide construction solutions.\n\nBAM International is a subsidiary of Royal BAM Group, one of Europe’s largest contracting companies active in construction, property, civil engineering, public-private partnerships, mechanical and electrical contracting and engineering in 30 countries across the globe.\n\nBAM International deploys the contracting activities of Royal BAM Group outside Europe. Until some years ago we were known as Interbeton or by the name of our subsidiaries, such as Harbourworks, Decorient and Higgs & Hill. Those names have been changed to include the BAM Group name. Along with other sister companies we benefit from the collective financial strength, know-how and experience that lie within our Group.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39d482ebc82644684b5f9f"), 
+    "products" : [
+        "Drugs"
+    ], 
+    "name" : "TQ Pharma Co. (Jordan market office)", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Health", 
+    "address" : "Amman, Jordan", 
+    "time" : "8:30 - 4:30", 
+    "website" : "www.tqpharma.com", 
+    "email" : "info@tqpharma.com", 
+    "phone" : 96265653433.0, 
+    "info" : "Quality …. Our pursuit of excellence never stops\nAs we grow, we continue to focus on delivering diverse products with high-quality and affordable generic medicines to patients across our markets.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39d513ebc82644684b5fa0"), 
+    "products" : [
+        "Oil"
+    ], 
+    "name" : "Jordan Oil Terminals Company (JOTC)", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Others", 
+    "address" : "Amman, Jordan", 
+    "time" : "24/7", 
+    "website" : "www.jotc.com.jo", 
+    "email" : "contact@jotc.com.jo", 
+    "phone" : NumberInt(65214762), 
+    "info" : "The Jordan Oil Terminals Company (JOTC) is the first independent open-access storage provider in Jordan offering world-class storage, handling, transportation, aviation fueling and bunkering services for local and regional clients in the petroleum industry. JOTC offers an integrated set of oil storage and logistics services across Jordan. Additionally, JOTC designs, builds, operates, and maintains its storage terminals to meet and exceed regulatory and international standards.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39d591ebc82644684b5fa1"), 
+    "products" : [
+        "Drugs"
+    ], 
+    "name" : "Hikma", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Health", 
+    "address" : "Amman, Jordan", 
+    "time" : "8:00 - 7:00", 
+    "website" : "www.hikma.com", 
+    "email" : "customers@hikma.com", 
+    "phone" : 96265802960.0, 
+    "info" : "We put better health within reach, every day.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39d62debc82644684b5fa2"), 
+    "products" : [
+        "Drugs"
+    ], 
+    "name" : "amman pharmaceutical industries company (API)", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Health", 
+    "address" : "Amman, Jordan", 
+    "time" : "24/7", 
+    "website" : "www.ammanpharma.com", 
+    "email" : "customer@ammanpharma.com", 
+    "phone" : NumberInt(64747851), 
+    "info" : "Amman Pharmaceutical Industries (API) was established in 1989 as one of the first pharmaceutical companies in the MENA region to pioneer the production of niche branded generics in the therapeutic areas of  Ophthalmology, ENT (Ear, Nose & Throat ) , respiratory, and Dermatology. After many years of success, API is still focused on its differentiator and proud to be a leader in the MENA region having expanded into 7 production lines producing +140 registered products, exporting to +27 markets globally, and employing +200 employees in Jordan and the region.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39d6f9ebc82644684b5fa3"), 
+    "products" : [
+        "Bank"
+    ], 
+    "name" : "Jordan Central Bank", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Business", 
+    "address" : "Jordan", 
+    "time" : "8:00 - 3:00", 
+    "website" : "www.cbj.gov.jo", 
+    "email" : "info@cbj.gov.jo", 
+    "phone" : 96264630301.0, 
+    "info" : "We are pleased to welcome you to the website of the Central Bank of Jordan. This website is your gateway to view the information, data, statistics and economic and financial reports issued by the Central Bank of Jordan, in addition to the laws, legislations and instructions that regulate the work of banks and other financial institutions that fall under the supervision of the Central Bank of Jordan. Through this site, you will be able to follow up regularly of the banking, monetary and macroeconomic statistics that are published through the various statistical bulletins of the bank.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39d767ebc82644684b5fa4"), 
+    "products" : [
+        "Bank"
+    ], 
+    "name" : "Jordan Islamic bank", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Business", 
+    "address" : "Amman, Jordan", 
+    "time" : "8:00 - 3:00", 
+    "website" : "https://www.jordanislamicbank.com/", 
+    "email" : "info@jordanislamicbank.com", 
+    "phone" : 96265680001.0, 
+    "info" : "Commitment to consolidate the values of the Islamic curriculum by dealing with everyone in accordance with the provisions and principles of Islamic Sharia for the benefit of the general community.\n\nEnsuring a balance between the interests of the stakeholders, including shareholders, investors, financiers, and employees.\n\nStriving for new developments in the banking and technology industry and looking to reach everyone's trust in our distinguished services that are in line with the changes within the framework of our commitment to our Islamic curriculum.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39d7dcebc82644684b5fa5"), 
+    "products" : [
+        ""
+    ], 
+    "name" : "Jordan Engineering Systems Co.", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Engineering", 
+    "address" : "Methqal AlFayez St, Jabal Amman, Amman, Jordan", 
+    "time" : "8:30 - 4:30", 
+    "website" : "www.jesjo.com", 
+    "email" : "customer@jesjo.com", 
+    "phone" : NumberInt(64644914), 
+    "info" : "Jordan Engineering Systems (JES) is an engineering-based organization specialized in offering turnkey low current systems with an in-house system-engineering department, installation teams & maintenance facilities.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39d88cebc82644684b5fa6"), 
+    "products" : [
+        "FTTH", 
+        " Full Turnkey Projects", 
+        " Site construction"
+    ], 
+    "name" : "Smart Company For Engineering Services", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "IT", 
+    "address" : "Jordan", 
+    "time" : "8:00 - 5:00", 
+    "website" : "ses-jo.com", 
+    "email" : "info@ses-jo.com", 
+    "phone" : NumberInt(6470234), 
+    "info" : "We are a leader in catering IT and Telecommunication engineering as business solutions\n", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39d928ebc82644684b5fa7"), 
+    "products" : [
+        "Custom Web Applications", 
+        " ECommerce & EBusiness"
+    ], 
+    "name" : "Wewebit", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "IT", 
+    "address" : "Amman, Jordan", 
+    "time" : "8:30 - 4:30", 
+    "website" : "www.wewebit.com", 
+    "email" : "info@wewebit.com", 
+    "phone" : null, 
+    "info" : "Wewebit is an established web development company based out of Amman. Since 2012 it has become one of the leading companies in this fast evolving field. Our team of experts remain updated with all that is innovative in order to maintain the Company’s progress.\n\nOur specializations cover various services such as web development, web hosting, custom applications, eCommerce, and forex web applications. We also provide clients with eBusiness solutions, mobile interface design, web maintenance and mastering, search engine optimization (SEO), as well as Mobile apps development, CRM installation and customization.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39d981ebc82644684b5fa8"), 
+    "products" : [
+        "Consulting ", 
+        " Technology ", 
+        " Outsourcing ", 
+        " Training "
+    ], 
+    "name" : "OPTIMIZA", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "IT", 
+    "address" : "Amman, Jordan", 
+    "time" : "8:00 - 4:00", 
+    "website" : "www.optimiza.me", 
+    "email" : "contact@optimiza.me", 
+    "phone" : null, 
+    "info" : "The Al-Faris National Investment Group, operating under the trade name OPTIMIZA, is a leading publicly listed ICT Systems Integrator and digital transformation solutions provider in the MENA region (ASE:CEBC).\n\nOPTIMIZA offers fully integrated solutions and services in four main practices: consulting, technology, outsourcing, and training. We cater to the needs of multiple sectors, including financial services, telecommunications, constructions, government, healthcare, and enterprise.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39da49ebc82644684b5fa9"), 
+    "products" : [
+        "Portam Solution", 
+        " Cloud Computing", 
+        " Business Intellegence"
+    ], 
+    "name" : "Quality Business Solutions - QBS", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Development", 
+    "address" : "Amman, Jordan", 
+    "time" : "8:00 - 4:00", 
+    "website" : "www.qbs.jo", 
+    "email" : "customer@qbs.jo", 
+    "phone" : NumberInt(65669800), 
+    "info" : "", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39dacbebc82644684b5faa"), 
+    "products" : [
+        "End Point Secuirty"
+    ], 
+    "name" : "IRIS Technology", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Development", 
+    "address" : "Amman, Jordan", 
+    "time" : "8:00 - 4:00", 
+    "website" : "www.itech.com.jo", 
+    "email" : "info@itech.com.jo", 
+    "phone" : NumberInt(652874), 
+    "info" : "IRIS Technology is a leading company the IT security space and has a reach across many countries in the Middle East region. As the company was established in 2009. IRIS Technology is engaged in IT networking and security solutions and consultancy. Hence, the biggest strength for IRIS Technology is the skill sets which has made it one of the fastest growing companies in the region and have been recognized by several awards from vendors and jury platforms. Industry recognition and awards have come IRIS Technology way for its discerning ability to provide value addition to product offerings while effectively helping customers to make most out of them. IRIS Technology has invested in its inherent strength in infrastructure, technical skills and customer service to create a niche for itself in the product distribution space.", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39db3bebc82644684b5fab"), 
+    "products" : [
+        "Computing and Data Center", 
+        " Networks Systems", 
+        " Survalance and security systems"
+    ], 
+    "name" : "Matrix Business Technology Co", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Development", 
+    "address" : "Jordan", 
+    "time" : "8:00 - 4:00", 
+    "website" : "www.matrix.jo", 
+    "email" : "info@matrix.jo", 
+    "phone" : 96265532981.0, 
+    "info" : "\noverview \nMATRIX GROUP, founded in 2004, has been growing from strength to strength blending the latest of technology with impeccable business acumen, meeting the most challenging requirements of fast-evolving technology landscape. \n\n\nToday. MATRIX defines, designs. and delivers technology-enabled business solutions that help companies WIN in this competitive world. We, MATRIX, provide a complete range of products and services to various verticals such as Education, Government, Healthcare Construction,\n\nManufacturing. Energy. and Telecommunications, through leveraging technology, business expertise. and high quality customer support. \n\n\nThrough our strategic partnerships with world-class Leading manufacturers and technology providers (such as HP, ACER, Microsoft, Fortinet, Symantec, Tripplite, EXCEL etc.). MATRIX has been able to stretch its coverage of technology landscape. This has become reality through extensive and strategic vertical focus, and consis-tently investing in our well-trained talented workforce of over 6o professionals. ", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39dba9ebc82644684b5fac"), 
+    "products" : [
+        "Telecom", 
+        " Education", 
+        " Internet"
+    ], 
+    "name" : "ESKADENIA Software", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Development", 
+    "address" : "Amman, Jordan", 
+    "time" : "8:30 - 4:30", 
+    "website" : "www.eskadenia.com", 
+    "email" : "sales@eskadenia.com", 
+    "phone" : NumberInt(65510717), 
+    "info" : "With the increasing competitiveness of world markets, companies need to strive, more than ever, to keep up to par with latest trends and technologies. As such, obtaining comprehensive software solutions is no longer a luxury, but rather an indispensable asset for every organisation.\n\nWe at ESKADENIA Software understand that our competitive value is not merely in leading our customers towards survival but rather in helping them to achieve and maintain a leading position in their respective markets. Thus, we endeavour to develop, with our customers, innovative, effective and world-class IT products and solutions that help reduce operational cost, increase revenue, improve communication, and enhance the general perception of the business", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39dc20ebc82644684b5fad"), 
+    "products" : [
+        "Mechanical Systems", 
+        " Plumbing Systems", 
+        " Medical Gases Systems"
+    ], 
+    "name" : "Seville Engineering Consultants", 
+    "user_id" : "5e2078a62171212ad8f82ce4", 
+    "field" : "Engineering", 
+    "address" : "Amman, Jordan", 
+    "time" : "8:00 - 5:00", 
+    "website" : "www.seville-eng.com", 
+    "email" : "info@seville-eng.com", 
+    "phone" : NumberInt(67512647), 
+    "info" : "Seville Engineering Consultants is a leading engineering consulting company based in Jordan and serving clients in the Middle East with high quality designs of electrical, mechanical and plumbing  systems.\n\n​\n\nSeville Engineering Consultants recognizes the increasing complexities and sophistication of engineering systems and offers clients specialized expertise in a broad range of electro-mechanical engineering consulting services.", 
     "__v" : NumberInt(0)
 }

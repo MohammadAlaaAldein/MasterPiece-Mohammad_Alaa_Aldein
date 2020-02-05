@@ -74,6 +74,11 @@ export default class Job extends Component {
                                         <td><h3 className="ml-2 mt-5 mb-2  float-left"> <b>{job.name}</b> </h3></td>
                                     </tr>
                                     <tr>
+                                        <td><h4 className="mr-2 mb-2 float-right">Company</h4></td>
+                                        <td><h4 className="mb-2 "> : </h4></td>
+                                        <td><h4 className="ml-2 mb-2 float-left"><b>{job.company}</b> </h4></td>
+                                    </tr>
+                                    <tr>
                                         <td><h4 className="mr-2 mb-2 float-right"> Job Field</h4></td>
                                         <td><h4 className="mb-2 "> : </h4></td>
                                         <td><h4 className="ml-2 mb-2 float-left"><b>{job.field}</b> </h4></td>
@@ -93,25 +98,6 @@ export default class Job extends Component {
                                         <td><h4 className="mb-2 "> : </h4></td>
                                         <td><h4 className="ml-2 mb-2 float-left"><b>{job.time}</b> </h4></td>
                                     </tr>
-                                    <tr>
-                                        <td><h4 className="mr-2 mb-2 float-right">Company</h4></td>
-                                        <td><h4 className="mb-2 "> : </h4></td>
-                                        <td><h4 className="ml-2 mb-2 float-left"><b>{job.company}</b> </h4></td>
-                                    </tr>
-                                    {
-                                        job.salary === null ?
-                                            <tr>
-                                                <td><h4 className="mr-2 mb-2 float-right">Salary</h4></td>
-                                                <td><h4 className="mb-2 "> : </h4></td>
-                                                <td><h4 className="ml-2 mb-2 float-left"><b>Determine When Agree</b> </h4></td>
-                                            </tr>
-                                            :
-                                            <tr>
-                                                <td><h4 className="mr-2 mb-2 float-right">Salary</h4></td>
-                                                <td><h4 className="mb-2 "> : </h4></td>
-                                                <td><h4 className="ml-2 mb-2 float-left"><b>{job.salary}</b> </h4></td>
-                                            </tr>
-                                    }
                                 </tbody>
                             </table>
                             <h5 className="mt-3 mb-5"> {job.info} </h5>

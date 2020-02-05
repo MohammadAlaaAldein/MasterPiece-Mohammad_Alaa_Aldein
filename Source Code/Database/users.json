@@ -1,9 +1,9 @@
 { 
     "_id" : ObjectId("5e068352bcbea5359ce8333b"), 
-    "name" : "Mohamamd Alaa Aldein", 
+    "name" : "Mohammad Alaa Aldein", 
     "email" : "mohammad.aladin996@gmail.com", 
-    "password" : "2121", 
-    "repassword" : "2121", 
+    "password" : "12345678", 
+    "repassword" : "12345678", 
     "field" : "Development", 
     "phone" : NumberInt(777519973), 
     "address" : "Amman, Jordan", 
@@ -14,23 +14,88 @@
 }
 { 
     "_id" : ObjectId("5e2078a62171212ad8f82ce4"), 
-    "name" : "admin", 
+    "name" : "Admin", 
     "email" : "admin@gmail.com", 
-    "password" : "2121", 
-    "repassword" : "2121", 
+    "password" : "12345678", 
+    "repassword" : "12345678", 
     "phone" : NumberInt(777519973), 
     "field" : "Development", 
-    "address" : "Ammad", 
+    "address" : "Amman", 
     "experience" : NumberInt(1), 
-    "info" : "MERN Stack", 
+    "info" : "Jobi Admin", 
     "role" : "admin", 
     "__v" : NumberInt(0)
 }
 { 
-    "_id" : ObjectId("5e3750e678d62549dcf0a19c"), 
-    "name" : "2", 
-    "email" : "2@d", 
-    "password" : "0", 
+    "_id" : ObjectId("5e39c081ebc82644684b5f8b"), 
+    "name" : "Ali Hammad", 
+    "email" : "ali.hammad@gmail.com", 
+    "password" : "12345678", 
+    "phone" : NumberInt(772515970), 
+    "field" : "Others", 
+    "address" : "Zarqa'a, Joedan", 
+    "experience" : NumberInt(7), 
+    "info" : "For all legal and legal cases\nCases of all Omani regular courts and speedy collection of claims, bond and checks cases, and other cases of division of funds and dissolution of partnership\nCertified legal advisor to all regular and Sharia courts", 
+    "role" : "user", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39c1c2ebc82644684b5f8d"), 
+    "name" : "Fatima Al-Baik", 
+    "email" : "fatima.baik@gmail.com", 
+    "password" : "12345678", 
+    "phone" : NumberInt(782169810), 
+    "field" : "Health", 
+    "address" : "Amman, Jordan", 
+    "experience" : NumberInt(7), 
+    "info" : "I am a nurse with good nursing skills,\nhave 7 years experience in nursing and I can accompany my patients, whether in the hospital or at home, for anyone who needs an escort.", 
+    "role" : "user", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39c36febc82644684b5f8f"), 
+    "name" : "Ayham Zaid", 
+    "email" : "ayham.zaid@gmail.com", 
+    "password" : "12345678", 
+    "phone" : NumberInt(785878213), 
+    "field" : "Development", 
+    "address" : "Amman, Jordan", 
+    "experience" : NumberInt(2), 
+    "info" : "Junior Full Stack developer, have 2 years experience at development. Have an excellent knowledge at Laravel and React ( MERN Stack ), and a good experience at PHP, Python and CMS. Have a passion to learn and self-development", 
+    "role" : "user", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39c41bebc82644684b5f91"), 
+    "name" : "Mohamamd Moneer", 
+    "email" : "mohammad.moneer@gmail.com", 
+    "password" : "12345678", 
+    "phone" : NumberInt(795103758), 
+    "field" : "Business", 
+    "address" : "Amman, Jordan", 
+    "experience" : NumberInt(12), 
+    "info" : "To organize your old and accumulated accounts from accounting, sales tax, income tax, and preparing bank reconciliations in an efficient computerized way .. In addition to a set of administrative forms and without additional costs, look for free and partial work for companies and stores", 
+    "role" : "user", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39c507ebc82644684b5f93"), 
+    "name" : "Ahmad Ramadan", 
+    "email" : "ahmad.ramadan@gmail.com", 
+    "password" : "12345678", 
+    "phone" : NumberInt(799401394), 
+    "field" : "Others", 
+    "address" : "Amman, Khalda", 
+    "experience" : NumberInt(15), 
+    "info" : "Jordanian butcher have large experience in foods, meat and other.\n", 
+    "role" : "user", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39c620ebc82644684b5f97"), 
+    "name" : "Alaaeddin Ramadan", 
+    "email" : "alaeddin@gmail.com", 
+    "password" : "12345678", 
     "phone" : null, 
     "field" : null, 
     "address" : null, 
@@ -40,15 +105,41 @@
     "__v" : NumberInt(0)
 }
 { 
-    "_id" : ObjectId("5e37516378d62549dcf0a19d"), 
-    "name" : "0", 
-    "email" : "0@d", 
-    "password" : "0", 
-    "phone" : null, 
-    "field" : null, 
-    "address" : null, 
-    "experience" : null, 
-    "info" : null, 
+    "_id" : ObjectId("5e39c697ebc82644684b5f99"), 
+    "name" : "Rahma Sandoqa", 
+    "email" : "rahma.sandoqa@gmail.com", 
+    "password" : "12345678", 
+    "phone" : NumberInt(777519970), 
+    "field" : "Development", 
+    "address" : "Bayader, Amman", 
+    "experience" : NumberInt(1), 
+    "info" : "Web developer", 
+    "role" : "user", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39c787ebc82644684b5f9b"), 
+    "name" : "Hani Abo Alinain", 
+    "email" : "hani.aboalinain@gmail.com", 
+    "password" : "12345678", 
+    "phone" : NumberInt(777519978), 
+    "field" : "Development", 
+    "address" : "Amman, Jordan", 
+    "experience" : NumberInt(1), 
+    "info" : "Web developer have good experience in development\n", 
+    "role" : "user", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5e39cdbcebc82644684b5f9c"), 
+    "name" : "Ammar Ziad", 
+    "email" : "ammar.ziad@gmail.com", 
+    "password" : "12345678", 
+    "phone" : NumberInt(777519977), 
+    "field" : "Development", 
+    "address" : "Zarqa'a, Joedan", 
+    "experience" : NumberInt(1), 
+    "info" : "Junior web developer", 
     "role" : "user", 
     "__v" : NumberInt(0)
 }

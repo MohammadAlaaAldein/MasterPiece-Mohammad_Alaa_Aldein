@@ -72,7 +72,7 @@ export default class AddJobApplication extends Component {
                                     <option className="dropdown-item" value="Freelancer">Freelancer</option>
                                     <option className="dropdown-item" value="Temporary">Temporary</option>
                                     <option className="dropdown-item" value="Consultant">Consultant</option>
-                                    <option className="dropdown-item" value="Consultant">Consultant</option>
+                                    <option className="dropdown-item" value="Any">Any</option>
                                 </select>
                             </div>
                         </div>

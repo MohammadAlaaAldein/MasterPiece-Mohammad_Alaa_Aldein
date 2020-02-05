@@ -12,7 +12,8 @@ export default class UserDashboard extends Component {
         appliers: [],
         refresh: null,
         job_id: null,
-        msg: null
+        msg: null,
+        applicantmsg: null,
     }
 
     UNSAFE_componentWillMount() {
@@ -63,7 +64,7 @@ export default class UserDashboard extends Component {
         this.setState({ msg: `Information Updated` })
     }
 
-    applicants = (applicants, job_id) => {
+    viewApplicants = (applicants, job_id) => {
         this.setState({ job_id })
         this.setState({ appliers: [] })
         applicants.map(_id => {
@@ -76,6 +77,11 @@ export default class UserDashboard extends Component {
                     })
             )
         })
+    }
+
+    applicantsAfterDelete=()=>{
+        let _id = this.state.job_id
+        
     }
 
     deleteJob = _id => {
@@ -107,11 +113,11 @@ export default class UserDashboard extends Component {
         axios.post("http://localhost:9000/deleteJobApplier", { appliersAfterDelete, job_id })
             .then(res => {
             })
-
+        this.setState({ applicantmsg: "Applicant deleted" })
     }
 
     render() {
-        const { user, userJobs, userJobsApplications, appliers, msg } = this.state
+        const { user, userJobs, userJobsApplications, appliers, msg, applicantmsg } = this.state
         return (
 
             <div className="dash row">
@@ -221,7 +227,7 @@ export default class UserDashboard extends Component {
                                                 </td>
                                                 <td className="row">
                                                     <div className="col dashcontainer-contact100-form-btn">
-                                                        <button onClick={() => this.applicants(job.applied, job._id)} type="submit" className="btn btn-primary ">
+                                                        <button onClick={() => this.viewApplicants(job.applied, job._id)} type="submit" className="btn btn-primary ">
                                                             Applicants
                                                         </button>
                                                     </div>
@@ -277,10 +283,6 @@ export default class UserDashboard extends Component {
                     </table>
 
 
-
-
-
-
                     <div className="col mt-5">
                         <table className="table">
                             <thead className="thead-light">
@@ -288,6 +290,7 @@ export default class UserDashboard extends Component {
                             </thead>
 
                             <tbody>
+                                <td colspan="3" style={{ color: "red", fontSize: "20px" }}>{applicantmsg}</td>
                                 {
                                     appliers.length !== 0 ?
                                         appliers.map((applier, key) => {
@@ -301,7 +304,8 @@ export default class UserDashboard extends Component {
                                                             <h5>
                                                                 {applier.name}
                                                             </h5>
-                                                        </Link> </td>
+                                                        </Link>
+                                                    </td>
                                                     <td>
                                                         <div className="button_cont" align="center">
                                                             <button className="dash-read x fa fa-trash" rel="nofollow noopener" onClick={() => this.deleteJobApplier(applier._id)} ></button>
